@@ -41,6 +41,7 @@ steps:
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
     actions:
       - type: createIssue
+        action_id: contrib-issue
         title: "Your first contribution"
         body: "your-first-contribution.md"
         comments:
@@ -48,7 +49,7 @@ steps:
       - type: respond
         with: "head-to-branch.md"
         data:
-          issueUrl: "%actions[0].number%"
+          issueUrl: "%actions.contrib-issue.data.html_url%"
 
   - title: "Create a branch"
     description: "Create a branch for introducing new changes."
@@ -98,9 +99,9 @@ steps:
           target_url: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
       - type: createStatus
         state:
-          left: "%payload.pull_request.base.label%"
+          left: "%payload.pull_request.base.ref%"
           operator: "==="
-          right: "%user.username%:master"
+          right: master
         success:
           description: Your pull request is based off of the master branch.
           target_url: https://help.github.com/articles/about-comparing-branches-in-pull-requests/
@@ -114,16 +115,17 @@ steps:
             body: "fix-body-base.md"
             event: REQUEST_CHANGES
       - type: gate
-        left: "%payload.pull_request.base.label%"
+        left: "%payload.pull_request.base.ref%"
         operator: "==="
-        right: "%user.username%:master"
+        right: master
         else:
           - type: createReview
-            body: "fix-body-base.md"
+            body: "fix-base.md"
             event: REQUEST_CHANGES
+      - type: getTree
       - type: createReview
-        body: "fix-base.md"
-        event: REQUEST_CHANGES
+        body: request-changes.md
+        event: 'COMMENT'
 
 
   - title: "Respond to a review"
@@ -152,6 +154,9 @@ steps:
         failure:
           description: Your pull request is NOT based off of the master branch. Please close this pull request and open a new one.
           target_url: https://help.github.com/articles/about-comparing-branches-in-pull-requests/
+      - type: createReview
+        body: pr-succeeds.md
+        event: APPROVE
 
   - title: "Merge your pull request"
     description: "Make your changes live by merging your PR."
