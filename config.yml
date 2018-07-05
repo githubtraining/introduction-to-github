@@ -41,7 +41,7 @@ steps:
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
     actions:
       - type: createIssue
-        action_id: contrib-issue
+        action_id: contrib_issue
         title: "Your first contribution"
         body: "your-first-contribution.md"
         comments:
@@ -49,7 +49,7 @@ steps:
       - type: respond
         with: "head-to-branch.md"
         data:
-          issueUrl: "%actions.contrib-issue.data.html_url%"
+          issueURL: "%actions.contrib_issue.data.html_url%"
 
   - title: "Create a branch"
     description: "Create a branch for introducing new changes."
