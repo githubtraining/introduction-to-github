@@ -112,7 +112,7 @@ steps:
         left: "%payload.pull_request.body%"
         else:
           - type: createReview
-            body: "fix-body-base.md"
+            body: "fix-body.md"
             event: REQUEST_CHANGES
       - type: gate
         left: "%payload.pull_request.base.ref%"
