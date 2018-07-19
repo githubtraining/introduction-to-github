@@ -1,6 +1,6 @@
 ## Step 8: Merge your pull request
 
-Nicely done {{ user.username }}! :sparkles:
+Nicely done @{{ user.username }}! :sparkles:
 
 You successfully created a pull request, and it has passed all of the tests. You can now merge your pull request.
 
