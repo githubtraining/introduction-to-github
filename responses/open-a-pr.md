@@ -20,7 +20,7 @@ This pull request is going to keep the changes you just made on your branch and 
 
 1. From the "Pull requests" tab, click **New pull request**
 1. In the "base:" drop-down menu, make sure the "master" branch is selected
-1. In the "compare:" drop-down menu, select "{{ branch }}"
+1. In the "compare:" drop-down menu, select "{{ branch | replace('refs/heads/', '') }}"
 1. Click **Create pull request**
 1. When you’ve selected your branch, enter a title for your pull request. For example `Add {{ user.username }}'s file`
 1. The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
