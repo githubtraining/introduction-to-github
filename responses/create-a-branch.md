@@ -1,6 +1,6 @@
 ## Step 4: Create a branch
 
-Let’s complete the first step of the GitHub flow: creating a branch <sup>[definition](https://help.github.com/articles/github-glossary/#branch)</sup>.
+Let’s complete the first step of the GitHub flow: creating a branch <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup>.
 
 <details><summary>Creating a branch</summary>
 
