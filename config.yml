@@ -1,6 +1,7 @@
 version: 1
 title: "Introduction to GitHub"
 tagline: Testing!
+description: This should pass!
 template:
   name: "github-slideshow"
   url: "https://github.com/githubtraining/caption-this-template.git"
