@@ -54,9 +54,9 @@ steps:
         title: "Your first contribution"
         body: "your-first-contribution.md"
         comments:
-          - "create-a-branch.md"
-        data:
-          payload: '%payload%'
+          - create-a-branch.md
+            data:
+              payload: '%payload%'
       - type: respond
         with: "head-to-branch.md"
         data:
