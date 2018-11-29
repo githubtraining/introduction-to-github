@@ -53,10 +53,11 @@ steps:
         action_id: contrib_issue
         title: Your first contribution
         body: your-first-contribution.md
+      - type: respond
+        with: create-a-branch.md
+        issue: Your first contribution
         data:
           thePayload: '%payload%'
-        comments:
-          - create-a-branch.md
       - type: respond
         with: "head-to-branch.md"
         data:
