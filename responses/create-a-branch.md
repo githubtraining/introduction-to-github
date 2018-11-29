@@ -26,21 +26,21 @@ The best way to keep branches organized with a team is to keep them concise and 
 {% if preferences.gitTool == 'cli' %}
 1. Open your preferred command line interface, which we'll call your shell from now on.
 1. Clone this repository:
-       ```shell
-       git clone {{ thePayload.repository.clone_url }}
-       ```
+      ```shell
+      git clone {{ thePayload.repository.clone_url }}
+      ```
 1. Navigate to the repository in your shell:
-       ```shell
-       cd {{ thePayload.repository.name }}
-       ```
+      ```shell
+      cd {{ thePayload.repository.name }}
+      ```
 1. Create a branch, use whatever name you like:
-       ```shell
-       git branch <BRANCH-NAME>
-       ```
+      ```shell
+      git branch <BRANCH-NAME>
+      ```
 1. Push the branch to GitHub:
-       ```
-       git push --set-upstream origin <BRANCH-NAME>
-       ```
+      ```
+      git push --set-upstream origin <BRANCH-NAME>
+      ```
 {% else %}
 
 1. Navigate to the “Code” tab

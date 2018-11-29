@@ -29,9 +29,9 @@ The following steps will guide you through the process of committing a change on
 {% if preferences.gitTool == 'cli' %}
 
 1. Check out to your branch:
-       ```shell
-       git checkout {{ thePayload.ref }}
-       ```
+      ```shell
+      git checkout {{ thePayload.ref }}
+      ```
 1. Create a new file named `_posts/0000-01-02-{{ user.username }}.md`.
 1. Add the following content to your file:
 
@@ -44,13 +44,13 @@ The following steps will guide you through the process of committing a change on
 
 
 1. After adding the text, commit the change and a commit message, check out the **Commits 101** drop-down, just above these instructions:
-       ```shell
-       git commit -m "<YOUR-MESSAGE>"
-       ```
+      ```shell
+      git commit -m "<YOUR-MESSAGE>"
+      ```
 1. Push your new commit to GitHub:
-       ```shell
-       git push
-       ```
+      ```shell
+      git push
+      ```
 
 {% else %}
 
