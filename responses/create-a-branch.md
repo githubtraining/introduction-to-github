@@ -23,7 +23,7 @@ The best way to keep branches organized with a team is to keep them concise and 
 
 ### :keyboard: Activity: Your first branch
 
-{% if preferences.gitTool === 'cli' %}
+{% if preferences.gitTool == 'cli' %}
        1. Open your preferred command line interface, which we'll call your shell from now on.
        1. Clone this repository:
               ```shell
