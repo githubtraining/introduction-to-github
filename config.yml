@@ -56,6 +56,8 @@ steps:
         body: "your-first-contribution.md"
         comments:
           - "create-a-branch.md"
+        data:
+          payload: '%payload%'
       - type: respond
         with: "head-to-branch.md"
         data:
@@ -70,7 +72,7 @@ steps:
         issue: "Your first contribution"
         with: "commit-something.md"
         data:
-          branch: "%payload.ref%"
+          payload: "%payload%"
 
   - title: "Commit a file"
     description: "Commit your file to the branch."
