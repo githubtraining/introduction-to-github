@@ -30,7 +30,7 @@ The following steps will guide you through the process of committing a change on
 
        1. Check out to your branch:
               ```shell
-              git checkout {{ payload.ref }}
+              git checkout {{ thePayload.ref }}
               ```
        1. Create a new file named `_posts/0000-01-02-{{ user.username }}.md`.
        1. Add the following content to your file:
@@ -55,7 +55,7 @@ The following steps will guide you through the process of committing a change on
 {% else %}
 
        1. Return to the "Code" tab
-       1. In the branch drop-down, select "{{ payload.ref }}"
+       1. In the branch drop-down, select "{{ thePayload.ref }}"
        1. Click **Create new file**
        1. In the "file name" field, type `_posts/0000-01-02-{{ user.username }}.md`
        1. When you’re done naming the file, add the following content to your file:

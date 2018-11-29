@@ -51,12 +51,12 @@ steps:
     actions:
       - type: createIssue
         action_id: contrib_issue
-        title: "Your first contribution"
-        body: "your-first-contribution.md"
+        title: Your first contribution
+        body: your-first-contribution.md
         comments:
           - create-a-branch.md
-            data:
-              payload: '%payload%'
+        data:
+          thePayload: '%payload%'
       - type: respond
         with: "head-to-branch.md"
         data:
@@ -71,7 +71,7 @@ steps:
         issue: "Your first contribution"
         with: "commit-something.md"
         data:
-          payload: "%payload%"
+          thePayload: "%payload%"
 
   - title: "Commit a file"
     description: "Commit your file to the branch."
