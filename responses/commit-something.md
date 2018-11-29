@@ -26,7 +26,7 @@ In the first field, type a commit message. The commit message should briefly tel
 
 The following steps will guide you through the process of committing a change on GitHub.
 
-{% if preferences.gitTool === 'cli' %}
+{% if preferences.gitTool == 'cli' %}
 
        1. Check out to your branch:
               ```shell
