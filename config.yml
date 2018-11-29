@@ -4,7 +4,7 @@ description: If you are looking for a quick and fun introduction to GitHub, you'
 template:
   name: github-slideshow
   repo: caption-this-template
-  description: A robot powered training repository :robot:
+  description: 'A robot powered training repository :robot:'
 preferences:
   - type: radio
     name: gitTool
