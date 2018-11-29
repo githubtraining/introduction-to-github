@@ -1,10 +1,10 @@
-title: "Introduction to GitHub"
-tagline: "Your sidekick for getting started on GitHub"
-description: "If you are looking for a quick and fun introduction to GitHub, you've found it. This class will get you started using GitHub in less than an hour."
+title: Introduction to GitHub
+tagline: Your sidekick for getting started on GitHub
+description: If you are looking for a quick and fun introduction to GitHub, you've found it. This class will get you started using GitHub in less than an hour.
 template:
-  name: "github-slideshow"
-  repo: "caption-this-template"
-  description: "A robot powered training repository :robot:"
+  name: github-slideshow
+  repo: caption-this-template
+  description: A robot powered training repository :robot:
 preferences:
   - type: radio
     name: gitTool
@@ -19,30 +19,30 @@ before:
   - type: updateBranchProtection
   - type: createIssue
     title: Getting Started with GitHub
-    body: "introduction.md"
+    body: introduction.md
     comments:
-      - "assign-yourself.md"
+      - assign-yourself.md
 steps:
-  - title: "Assign yourself"
-    description: "Assign the first issue to yourself."
-    event: "issues.assigned"
+  - title: Assign yourself
+    description: Assign the first issue to yourself.
+    event: issues.assigned
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
     actions:
       - type: gate
-        left: "%payload.assignee.login%"
-        operator: "==="
-        right: "%user.username%"
+        left: '%payload.assignee.login%'
+        operator: ===
+        right: '%user.username%'
       - type: respond
-        with: "turn-on-gh-pages.md"
+        with: turn-on-gh-pages.md
 
-  - title: "Turn on GitHub Pages"
-    description: "Turn on GitHub Pages in the settings page of the repository."
-    event: "deployment"
+  - title: Turn on GitHub Pages
+    description: Turn on GitHub Pages in the settings page of the repository.
+    event: deployment
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/settings
     actions:
       - type: respond
-        issue: "Getting Started with GitHub"
-        with: "close-issue.md"
+        issue: Getting Started with GitHub
+        with: close-issue.md
 
   - title: Close an issue
     description: Cease a conversation by closing an issue.
@@ -62,46 +62,46 @@ steps:
         data:
           issueURL: '%actions.contrib_issue.data.html_url%'
 
-  - title: "Create a branch"
-    description: "Create a branch for introducing new changes."
-    event: "create"
+  - title: Create a branch
+    description: Create a branch for introducing new changes.
+    event: create
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/
     actions:
       - type: respond
-        issue: "Your first contribution"
+        issue: Your first contribution
         with: commit-something.md
         data:
           thePayload: '%payload%'
 
-  - title: "Commit a file"
-    description: "Commit your file to the branch."
-    event: "push"
+  - title: Commit a file
+    description: Commit your file to the branch.
+    event: push
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/
     actions:
       - type: respond
-        issue: "Your first contribution"
-        with: "open-a-pr.md"
+        issue: Your first contribution
+        with: open-a-pr.md
         data:
-          branch: "%payload.ref%"
+          branch: '%payload.ref%'
 
-  - title: "Open a pull request"
-    description: "Open a pull request to propose your new file to the codebase."
-    event: "pull_request"
+  - title: Open a pull request
+    description: Open a pull request to propose your new file to the codebase.
+    event: pull_request
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/compare?expand=1
     actions:
       - type: gate
         gates:
-          - left: "%payload.action%"
-            operator: "==="
-            right: "opened"
-          - left: "%payload.action%"
-            operator: "==="
-            right: "edited"
+          - left: '%payload.action%'
+            operator: ===
+            right: opened
+          - left: '%payload.action%'
+            operator: ===
+            right: edited
       - type: closeIssue
-        issue: "Your first contribution"
+        issue: Your first contribution
       - type: createStatus
         state:
-          left: "%payload.pull_request.body%"
+          left: '%payload.pull_request.body%'
         failure:
           description: Your pull request needs a description in the body. Please edit the pull request to include a body.
           target_url: https://help.github.com/articles/editing-a-comment/
@@ -110,8 +110,8 @@ steps:
           target_url: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
       - type: createStatus
         state:
-          left: "%payload.pull_request.base.ref%"
-          operator: "==="
+          left: '%payload.pull_request.base.ref%'
+          operator: ===
           right: master
         success:
           description: Your pull request is based off of the master branch.
@@ -120,18 +120,18 @@ steps:
           description: Your pull request is NOT based off of the master branch. Please close this pull request and open a new one.
           target_url: https://help.github.com/articles/about-comparing-branches-in-pull-requests/
       - type: gate
-        left: "%payload.pull_request.body%"
+        left: '%payload.pull_request.body%'
         else:
           - type: createReview
-            body: "fix-body.md"
+            body: fix-body.md
             event: REQUEST_CHANGES
       - type: gate
-        left: "%payload.pull_request.base.ref%"
-        operator: "==="
+        left: '%payload.pull_request.base.ref%'
+        operator: ===
         right: master
         else:
           - type: createReview
-            body: "fix-base.md"
+            body: fix-base.md
             event: REQUEST_CHANGES
       - type: getTree
       - type: createReview
@@ -141,15 +141,15 @@ steps:
           branch: '%payload.pull_request.head.ref%'
 
 
-  - title: "Respond to a review"
-    description: "Respond to a PR review."
-    event: "pull_request.synchronize"
+  - title: Respond to a review
+    description: Respond to a PR review.
+    event: pull_request.synchronize
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3
     actions:
       - type: removeBranchProtection
       - type: createStatus
         state:
-          left: "%pull_request.body%"
+          left: '%pull_request.body%'
         failure:
           description: Your pull request needs a description in the body. Please edit the pull request to include a body.
           target_url: https://help.github.com/articles/editing-a-comment/
@@ -158,9 +158,9 @@ steps:
           target_url: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
       - type: createStatus
         state:
-          left: "%payload.pull_request.base.label%"
-          operator: "==="
-          right: "%user.username%:master"
+          left: '%payload.pull_request.base.label%'
+          operator: ===
+          right: '%user.username%:master'
         success:
           description: Your pull request is based off of the master branch.
           target_url: https://help.github.com/articles/about-comparing-branches-in-pull-requests/
@@ -173,18 +173,18 @@ steps:
         data:
           branch: '%payload.pull_request.head.ref%'
 
-  - title: "Merge your pull request"
-    description: "Make your changes live by merging your PR."
-    event: "pull_request.closed"
+  - title: Merge your pull request
+    description: Make your changes live by merging your PR.
+    event: pull_request.closed
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3
     actions:
       - type: gate
-        left: "%payload.pull_request.merged%"
+        left: '%payload.pull_request.merged%'
         else:
           - type: respond
-            with: "reopen.md"
+            with: reopen.md
       - type: respond
-        with: "reminder-delete.md"
+        with: reminder-delete.md
 
 tags: [
   "Git","GitHub"
