@@ -138,6 +138,8 @@ steps:
       - type: createReview
         body: request-changes.md
         event: 'COMMENT'
+        data:
+          branch: '%payload.pull_request.head.ref%'
 
 
   - title: "Respond to a review"
@@ -169,6 +171,8 @@ steps:
       - type: createReview
         body: pr-succeeds.md
         event: APPROVE
+        data:
+          branch: '%payload.pull_request.head.ref%'
 
   - title: "Merge your pull request"
     description: "Make your changes live by merging your PR."
