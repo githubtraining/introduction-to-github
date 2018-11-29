@@ -41,6 +41,10 @@ The following steps will guide you through the process of committing a change on
       Your text
       Use the left arrow to go back!
       ```
+1. Stage your new file:
+      ```shell
+      git add _posts/0000-01-02-{{ user.username }}.md
+      ```
 1. After adding the text, commit the change and a commit message, check out the **Commits 101** drop-down, just above these instructions:
       ```shell
       git commit -m "<YOUR-MESSAGE>"
