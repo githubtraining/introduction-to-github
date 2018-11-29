@@ -44,9 +44,9 @@ steps:
         issue: "Getting Started with GitHub"
         with: "close-issue.md"
 
-  - title: "Close an issue"
-    description: "Cease a conversation by closing an issue."
-    event: "issues.closed"
+  - title: Close an issue
+    description: Cease a conversation by closing an issue.
+    event: issues.closed
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
     actions:
       - type: createIssue
@@ -59,9 +59,9 @@ steps:
         data:
           thePayload: '%payload%'
       - type: respond
-        with: "head-to-branch.md"
+        with: head-to-branch.md
         data:
-          issueURL: "%actions.contrib_issue.data.html_url%"
+          issueURL: '%actions.contrib_issue.data.html_url%'
 
   - title: "Create a branch"
     description: "Create a branch for introducing new changes."
