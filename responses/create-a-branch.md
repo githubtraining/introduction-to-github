@@ -27,11 +27,11 @@ The best way to keep branches organized with a team is to keep them concise and 
        1. Open your preferred command line interface, which we'll call your shell from now on.
        1. Clone this repository:
               ```shell
-              git clone {{ payload.repository.clone_url }}
+              git clone {{ thePayload.repository.clone_url }}
               ```
        1. Navigate to the repository in your shell:
               ```shell
-              cd {{ payload.repository.name }}
+              cd {{ thePayload.repository.name }}
               ```
        1. Create a branch, use whatever name you like:
               ```shell
