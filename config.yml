@@ -5,6 +5,16 @@ template:
   name: "github-slideshow"
   repo: "caption-this-template"
   description: "A robot powered training repository :robot:"
+preferences:
+  - type: radio
+    name: gitTool
+    label: Preferred Git tool
+    description: Learn right from the web UI, or using your chosen tool
+    options:
+      - label: Use the GitHub.com web interface
+        value: dotcom
+      - label: Use the command line
+        value: cli
 before:
   - type: updateBranchProtection
   - type: createIssue
@@ -34,21 +44,23 @@ steps:
         issue: "Getting Started with GitHub"
         with: "close-issue.md"
 
-  - title: "Close an issue"
-    description: "Cease a conversation by closing an issue."
-    event: "issues.closed"
+  - title: Close an issue
+    description: Cease a conversation by closing an issue.
+    event: issues.closed
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
     actions:
       - type: createIssue
         action_id: contrib_issue
-        title: "Your first contribution"
-        body: "your-first-contribution.md"
+        title: Your first contribution
+        body: your-first-contribution.md
         comments:
-          - "create-a-branch.md"
-      - type: respond
-        with: "head-to-branch.md"
+          - create-a-branch.md
         data:
-          issueURL: "%actions.contrib_issue.data.html_url%"
+          thePayload: '%payload%'
+      - type: respond
+        with: head-to-branch.md
+        data:
+          issueURL: '%actions.contrib_issue.data.html_url%'
 
   - title: "Create a branch"
     description: "Create a branch for introducing new changes."
@@ -57,9 +69,9 @@ steps:
     actions:
       - type: respond
         issue: "Your first contribution"
-        with: "commit-something.md"
+        with: commit-something.md
         data:
-          branch: "%payload.ref%"
+          thePayload: '%payload%'
 
   - title: "Commit a file"
     description: "Commit your file to the branch."
@@ -125,6 +137,8 @@ steps:
       - type: createReview
         body: request-changes.md
         event: 'COMMENT'
+        data:
+          branch: '%payload.pull_request.head.ref%'
 
 
   - title: "Respond to a review"
@@ -156,6 +170,8 @@ steps:
       - type: createReview
         body: pr-succeeds.md
         event: APPROVE
+        data:
+          branch: '%payload.pull_request.head.ref%'
 
   - title: "Merge your pull request"
     description: "Make your changes live by merging your PR."

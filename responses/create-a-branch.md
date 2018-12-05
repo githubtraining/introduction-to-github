@@ -23,10 +23,31 @@ The best way to keep branches organized with a team is to keep them concise and 
 
 ### :keyboard: Activity: Your first branch
 
+{% if preferences.gitTool == 'cli' %}
+1. Open your preferred command line interface, which we'll call your shell from now on.
+1. Clone this repository:
+      ```shell
+      git clone {{ thePayload.repository.clone_url }}
+      ```
+1. Navigate to the repository in your shell:
+      ```shell
+      cd {{ thePayload.repository.name }}
+      ```
+1. Create a branch, use whatever name you like:
+      ```shell
+      git branch <BRANCH-NAME>
+      ```
+1. Push the branch to GitHub:
+      ```
+      git push --set-upstream origin <BRANCH-NAME>
+      ```
+{% else %}
+
 1. Navigate to the “Code” tab
 2. Click **Branch: master** in the drop-down
 3. In the field, enter a name for your branch
 4. Click **Create branch: <name>** or press the “Enter” key to create your branch
 
+{% endif %}
 <hr>
 <h3 align="center">Return to this issue for my response</h3>
