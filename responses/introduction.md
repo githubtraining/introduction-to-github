@@ -16,7 +16,7 @@ From software to legal documents, you can count on GitHub to help you do your be
 
 **GitHub is also a powerful version control tool.**
 
-GitHub uses Git <sup>[definition](https://help.github.com/articles/github-glossary/#git)</sup>, the most popular open source version control software, to track every contribution and contributor <sup>[:book:](https://help.github.com/articles/github-glossary/#contributor)</sup> to your project--so you know exactly where every line of code came from.
+GitHub uses Git <sup>[:book:](https://help.github.com/articles/github-glossary/#git)</sup>, the most popular open source version control software, to track every contribution and contributor <sup>[:book:](https://help.github.com/articles/github-glossary/#contributor)</sup> to your project--so you know exactly where every line of code came from.
 
 **GitHub helps people do much more.**
 
