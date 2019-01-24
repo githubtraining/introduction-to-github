@@ -16,7 +16,7 @@ Branches are an important part of the GitHub flow because they allow us to separ
 
 A single project can have hundreds of branches, each suggesting a new change to the `master` branch.
 
-The best way to keep branches organized with a team is to keep them concise and short-lived. In other words, a single branch should represent a single new feature or bug fix. This reduces confusion among contributors when branches are only active for a few days before they’re merged <sup>[definition](https://help.github.com/articles/github-glossary/#merge)</sup> into the `master` branch.
+The best way to keep branches organized with a team is to keep them concise and short-lived. In other words, a single branch should represent a single new feature or bug fix. This reduces confusion among contributors when branches are only active for a few days before they’re merged <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> into the `master` branch.
 
 <hr>
 </details>
