@@ -26,7 +26,7 @@ steps:
   - title: Assign yourself
     description: Assign the first issue to yourself.
     event: issues.assigned
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: gate
         left: '%payload.assignee.login%'
@@ -38,7 +38,7 @@ steps:
   - title: Turn on GitHub Pages
     description: Turn on GitHub Pages in the settings page of the repository.
     event: deployment
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/settings
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
         issue: Getting Started with GitHub
@@ -47,7 +47,7 @@ steps:
   - title: Close an issue
     description: Cease a conversation by closing an issue.
     event: issues.closed
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: createIssue
         action_id: contrib_issue
@@ -65,7 +65,7 @@ steps:
   - title: Create a branch
     description: Create a branch for introducing new changes.
     event: create
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/
+    link: '{{ repoUrl }}/issues/2'
     actions:
       - type: respond
         issue: Your first contribution
@@ -76,7 +76,7 @@ steps:
   - title: Commit a file
     description: Commit your file to the branch.
     event: push
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/
+    link: '{{ repoUrl }}/issues/2'
     actions:
       - type: respond
         issue: Your first contribution
@@ -87,7 +87,7 @@ steps:
   - title: Open a pull request
     description: Open a pull request to propose your new file to the codebase.
     event: pull_request
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/compare?expand=1
+    link: '{{ repoUrl }}/issues/2'
     actions:
       - type: gate
         gates:
@@ -144,7 +144,7 @@ steps:
   - title: Respond to a review
     description: Respond to a PR review.
     event: pull_request.synchronize
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3
+    link: '{{ repoUrl }}/pull/3'
     actions:
       - type: removeBranchProtection
       - type: createStatus
@@ -176,7 +176,7 @@ steps:
   - title: Merge your pull request
     description: Make your changes live by merging your PR.
     event: pull_request.closed
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/pull/3
+    link: '{{ repoUrl }}/pull/3'
     actions:
       - type: gate
         left: '%payload.pull_request.merged%'
