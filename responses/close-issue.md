@@ -4,9 +4,7 @@ You turned on GitHub Pages!
 
 Your site is now visible to the public. Check it out at https://{{ user.username }}.github.io/{{ repo }}.
 
-Now that you’ve completed the tasks in this issue, it's time to close it! You can't delete an issue on GitHub, but closing it tells other contributors that this particular conversation or task has come to an end.
-
-Since you've turned on GitHub Pages, close this issue.
+Now that you’ve completed the tasks in this issue, it's time to close it! Closing an issue tells other contributors that this particular conversation or task has come to an end.
 
 ### :keyboard: Activity
 
