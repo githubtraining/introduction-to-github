@@ -43,7 +43,7 @@ The best way to keep branches organized with a team is to keep them concise and 
       ```
 {% else %}
 
-1. Navigate to the “Code” tab
+1. Navigate to the [Code tab]({{ thePayload.repository.html_url }})
 2. Click **Branch: master** in the drop-down
 3. In the field, enter a name for your branch
 4. Click **Create branch: <name>** or press the “Enter” key to create your branch
