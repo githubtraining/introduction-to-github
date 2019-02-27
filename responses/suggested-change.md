@@ -1,3 +1,0 @@
-```suggestion
-Something different!
-```

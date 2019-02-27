@@ -143,15 +143,10 @@ steps:
       - type: getTree
       - type: createReview
         body: request-changes.md
-        event: 'REQUEST_CHANGES'
+        event: 'COMMENT'
         data:
           branch: '%payload.pull_request.head.ref%'
           url: '%payload.pull_request.html_url%/files'
-      - type: createPullRequestComment
-        body: suggested-change.md
-        file: '_posts/0000-01-02-%payload.sender.login%.md'
-        pullRequest: '%payload.number%'
-        position: 5
 
   - title: Respond to a review
     description: Respond to a PR review.
