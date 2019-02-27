@@ -148,26 +148,6 @@ steps:
   link: '{{ repoUrl }}/pull/3'
   actions:
   - type: removeBranchProtection
-  - type: createStatus
-    state:
-      left: '%pull_request.body%'
-    failure:
-      description: Your pull request needs a description in the body. Please edit the pull request to include a body.
-      target_url: https://help.github.com/articles/editing-a-comment/
-    success:
-      description: Your pull request has a body description.
-      target_url: https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request
-  - type: createStatus
-    state:
-      left: '%payload.pull_request.base.label%'
-      operator: ===
-      right: '%user.username%:master'
-    success:
-      description: Your pull request is based off of the master branch.
-      target_url: https://help.github.com/articles/about-comparing-branches-in-pull-requests/
-    failure:
-      description: Your pull request is NOT based off of the master branch. Please close this pull request and open a new one.
-      target_url: https://help.github.com/articles/about-comparing-branches-in-pull-requests/
   - type: createReview
     body: pr-succeeds.md
     event: APPROVE
