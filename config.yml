@@ -22,6 +22,12 @@ before:
     body: introduction.md
     comments:
       - assign-yourself.md
+
+# Course artifacts:
+#   1. Issue: Getting started with GitHub
+#   2. Issue: Your first contribution
+#   3. PR: [Created by learner]
+
 steps:
   - title: Assign yourself
     description: Assign the first issue to yourself.
