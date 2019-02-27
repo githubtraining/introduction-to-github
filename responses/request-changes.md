@@ -26,8 +26,8 @@ Let’s add some content to your file. Replace line 5 of your file with a quotat
     git push
     ```
 {% else %}
-1. Click the "Files Changed" tab in this pull request
-1. Click on the pencil icon found on the right side of the screen
+1. Click the [Files Changed tab]({{ url }}) in this pull request
+1. Click on the pencil icon found on the right side of the screen to edit your newly added file
 1. Replace line 5 with something new
 1. Scroll to the bottom and click **Commit Changes**
 {% endif %}

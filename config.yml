@@ -83,6 +83,7 @@ steps:
         with: open-a-pr.md
         data:
           branch: '%payload.ref%'
+          url: '%payload.repository.html_url%/compare/%payload.ref%?expand=1'
 
   - title: Open a pull request
     description: Open a pull request to propose your new file to the codebase.
@@ -139,7 +140,7 @@ steps:
         event: 'COMMENT'
         data:
           branch: '%payload.pull_request.head.ref%'
-
+          url: '%payload.pull_request.html_url%/files'
 
   - title: Respond to a review
     description: Respond to a PR review.

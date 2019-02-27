@@ -54,10 +54,11 @@ The following steps will guide you through the process of committing a change on
       git push
       ```
 {% else %}
-1. Return to the "Code" tab
-1. In the branch drop-down, select "{{ thePayload.ref }}"
-1. Click **Create new file**
-1. In the "file name" field, type `_posts/0000-01-02-{{ user.username }}.md`
+1. Create a new file on this branch, in a `_posts` folder called `0000-01-02-{{ user.username }}.md`. You can do so using [this shortcut]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=_posts/0000-01-02-{{ user.username }}.md) or manually as follows:
+      - Return to the "Code" tab
+      - In the branch drop-down, select "{{ thePayload.ref }}"
+      - Click **Create new file**
+      - In the "file name" field, type `_posts/0000-01-02-{{ user.username }}.md`
 1. When you’re done naming the file, add the following content to your file:
       ```yaml
       ---
