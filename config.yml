@@ -108,7 +108,7 @@ steps:
         issue: Your first contribution
       - type: gate
         left: '%payload.pull_request.body%'
-        else:
+        else: 
           - type: createReview
             body: fix-body.md
             event: REQUEST_CHANGES
@@ -121,6 +121,20 @@ steps:
             body: fix-base.md
             event: REQUEST_CHANGES
       - type: getTree
+        action_id: tree
+        recursive: true
+        sha: '%payload.pull_request.head.sha%'
+      - type: gate
+        left: '%actions.tree.data.tree%'
+        operator: includes
+        right: path:_posts/0000-01-02-%user.username%.md
+        else:
+          type: respond
+          with: fix-filename.md
+          data:
+            expected: _posts/0000-01-02-%user.username%.md
+            url: '%payload.pull_request.html_url%/files'
+
       - type: createReview
         body: request-changes.md
         event: 'COMMENT'
