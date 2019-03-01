@@ -33,9 +33,9 @@ The best way to keep branches organized with a team is to keep them concise and 
       ```shell
       cd {{ thePayload.repository.name }}
       ```
-1. Create a branch, use whatever name you like:
+1. Create a branch, use whatever name you like. Feel free to use the suggested name below. 
       ```shell
-      git branch <BRANCH-NAME>
+      git branch my-slide
       ```
 1. Push the branch to GitHub:
       ```
@@ -54,7 +54,7 @@ The best way to keep branches organized with a team is to keep them concise and 
 1. Select the location in which to save the repository and click **Choose folder**. Then, open the location you selected.
 1. The repository folder should now be open in your VS Code project. Click on `master` at the bottom left of the VS Code window. This will bring up the Command Palette with the commands related to Git branches.
       ![a screenshot of the Git branches in VS Code](https://user-images.githubusercontent.com/16547949/53639606-adc76e80-3bf7-11e9-98ac-bd41ae2b40db.png)
-1. Click **Create new branch** and enter any branch name you'd like. Then press <kbd>Enter</kbd>.
+1. Click **Create new branch** and enter any branch name you'd like, such as `my-slide`. Then press <kbd>Enter</kbd>.
 1. When asked to select the ref to create the branch from, select `master`.
 1. Go to the Source Control view, click on the ellipsis (...) and select **Push**. Confirm the dialog box asking you to publish the branch.
       ![a screenshot of the source control view in VS Code](https://user-images.githubusercontent.com/16547949/53640015-ee73b780-3bf8-11e9-8c90-be9022b9555a.png)
@@ -63,7 +63,7 @@ The best way to keep branches organized with a team is to keep them concise and 
 
 1. Navigate to the [Code tab]({{ thePayload.repository.html_url }})
 2. Click **Branch: master** in the drop-down
-3. In the field, enter a name for your branch
+3. In the field, enter a name for your branch, like `my-slide`
 4. Click **Create branch: <name>** or press the “Enter” key to create your branch
 
 {% endif %}
