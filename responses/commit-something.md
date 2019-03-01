@@ -53,6 +53,24 @@ The following steps will guide you through the process of committing a change on
       ```shell
       git push
       ```
+
+{% elsif preferences.gitTool == 'vscode' %}
+1. In the `_posts` folder, create a new file named `0000-01-02-{{ user.username }}.md`. The full path to your file will be: `_posts/0000-01-02-{{ user.username }}.md`.
+1. Add the following content to your file and save it:
+      ```yaml 
+      ---
+      layout: slide
+      title: "Welcome to our second slide!"
+      ---
+      Your text
+      Use the left arrow to go back!
+      ```
+1. To stage your new file: go to the Source Control view and click the **+** button next to the file. You can also follow along with [VS Code's official documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_commit).
+      ![a screenshot of the staging button in the source control view](https://user-images.githubusercontent.com/16547949/53641057-d5b8d100-3bfb-11e9-9b69-53b0661cd5cd.png)
+1. Commit the change by typing a commit message in the text field and pressing <kbd>Ctrl+Enter</kbd> on Windows or <kbd>Command ⌘+Enter</kbd> on macOS.
+      ![a screenshot of the commit message on VS Code](https://user-images.githubusercontent.com/16547949/53641276-698a9d00-3bfc-11e9-9b3d-01680fd01d7c.png)
+1. Click on the ellipsis (...) and select **Push**.
+
 {% else %}
 1. Create a new file on this branch, in a `_posts` folder called `0000-01-02-{{ user.username }}.md`. You can do so using [this shortcut]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=_posts/0000-01-02-{{ user.username }}.md) or manually as follows:
       - Return to the "Code" tab
