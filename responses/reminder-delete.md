@@ -28,4 +28,8 @@ To find projects to contribute to through trending topics and curated collection
 
 ### Keep learning
 
-Check out the other GitHub Learning Lab courses in your Dashboard! [What will you learn next]({{ host }}/courses)?
+Here are some suggestions for future courses you can take:
+- [GitHub Pages]({{ host }}/githubtraining/github-pages): Continue learning about GitHub Pages, which we touched on in this course.
+- [Communicating using Markdown]({{ host }}/githubtraining/communicating-using-markdown): We used a little Markdown in this course, but if you want to learn all about this :sparkles: syntax, take the course!
+
+[What will you learn next]({{ host }}/courses)?
