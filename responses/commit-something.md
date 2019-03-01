@@ -76,7 +76,7 @@ The following steps will guide you through the process of committing a change on
       - Return to the "Code" tab
       - In the branch drop-down, select "{{ thePayload.ref }}"
       - Click **Create new file**
-      - In the "file name" field, type `_posts/0000-01-02-{{ user.username }}.md`
+      - In the "file name" field, type `_posts/0000-01-02-{{ user.username }}.md`. Entering the `/` in the filename will automatically place your file in the `_posts` directory.
 1. When you’re done naming the file, add the following content to your file:
       ```yaml
       ---
