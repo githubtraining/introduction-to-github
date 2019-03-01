@@ -29,6 +29,8 @@ before:
 #   3. PR: [Created by learner]
 
 steps:
+
+# 1
 - title: Assign yourself
   description: Assign the first issue to yourself.
   event: issues.assigned
@@ -41,6 +43,7 @@ steps:
   - type: respond
     with: turn-on-gh-pages.md
 
+# 2
 - title: Turn on GitHub Pages
   description: Turn on GitHub Pages in the settings page of the repository.
   event: deployment
@@ -50,6 +53,7 @@ steps:
     issue: Getting Started with GitHub
     with: close-issue.md
 
+# 3
 - title: Close an issue
   description: Cease a conversation by closing an issue.
   event: issues.closed
@@ -68,6 +72,7 @@ steps:
     data:
       issueURL: '%actions.contrib_issue.data.html_url%'
 
+# 4
 - title: Create a branch
   description: Create a branch for introducing new changes.
   event: create
@@ -79,6 +84,7 @@ steps:
     data:
       thePayload: '%payload%'
 
+# 5
 - title: Commit a file
   description: Commit your file to the branch.
   event: push
@@ -91,6 +97,7 @@ steps:
       branch: '%payload.ref%'
       url: '%payload.repository.html_url%/compare/%payload.ref%?expand=1'
 
+# 6
 - title: Open a pull request
   description: Open a pull request to propose your new file to the codebase.
   event: pull_request
@@ -142,6 +149,7 @@ steps:
       branch: '%payload.pull_request.head.ref%'
       url: '%payload.pull_request.html_url%/files'
 
+# 7
 - title: Respond to a review
   description: Respond to a PR review.
   event: pull_request.synchronize
@@ -154,6 +162,7 @@ steps:
     data:
       branch: '%payload.pull_request.head.ref%'
 
+# 8
 - title: Merge your pull request
   description: Make your changes live by merging your PR.
   event: pull_request.closed

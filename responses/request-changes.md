@@ -33,4 +33,4 @@ Let’s add some content to your file. Replace line 5 of your file with a quotat
 {% endif %}
 
 <hr>
-<h3 align="center">Watch below for my response</h3>
+<h3 align="center">I'll respond when I detect a commit on this branch.</h3>

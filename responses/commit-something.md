@@ -72,4 +72,4 @@ The following steps will guide you through the process of committing a change on
 1. When you’ve entered a commit message, click **Commit new file**
 {% endif %}
 <hr>
-<h3 align="center">Return to this issue for my response</h3>
+<h3 align="center">I'll respond when I detect a new commit on this branch.</h3>

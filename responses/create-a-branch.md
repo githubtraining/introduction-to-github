@@ -50,4 +50,4 @@ The best way to keep branches organized with a team is to keep them concise and 
 
 {% endif %}
 <hr>
-<h3 align="center">Return to this issue for my response</h3>
+<h3 align="center">I'll respond when I detect a new branch has been created in this repository.</h3>
