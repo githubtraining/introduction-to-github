@@ -27,4 +27,4 @@ This pull request is going to keep the changes you just made on your branch and 
 1. Click **Create pull request**
 
 <hr>
-<h3 align="center">Look for my next response in your pull request</h3>
+<h3 align="center">I'll respond in your new pull request.</h3>

@@ -11,4 +11,4 @@ Now that you’ve completed the tasks in this issue, it's time to close it! Clos
 1. Click the **Close issue** button below
 
 <hr>
-<h3 align="center">Watch below for my response</h3>
+<h3 align="center">I'll respond when you've closed this issue.</h3>

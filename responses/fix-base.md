@@ -9,4 +9,4 @@ Your base branch should be named `master`. Let's open a new pull request to fix 
 If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
 
 <hr>
-<h3 align="center">Look for my next response in your pull request</h3>
+<h3 align="center">I'll respond when I detect this pull request's base has been edited.</h3>

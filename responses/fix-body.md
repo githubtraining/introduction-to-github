@@ -11,4 +11,4 @@ Let's edit this pull request to add a body description.
 If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
 
 <hr>
-<h3 align="center">Watch below for my response</h3>
+<h3 align="center">I'll respond when I detect this pull request's body has been edited.</h3>

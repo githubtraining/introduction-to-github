@@ -15,6 +15,6 @@ Now, on to business! GitHub Pages allow you to serve a static site from a reposi
 > Note: Even though you'll see an option to choose a theme, do not apply a theme at this point. We've protected the code so you can't make unintended changes. You'll have the opportunity to apply a theme when the course is completed. 
 
 <hr>
-<h3 align="center">Return to this issue for next steps</h3>
+<h3 align="center">I'll respond in this issue when I detect GitHub Pages has deployed your site.</h3>
 
 > Turning on GitHub Pages creates a deployment of your repository. I may take up to a minute to respond as I await the deployment.
