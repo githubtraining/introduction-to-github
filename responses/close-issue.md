@@ -2,7 +2,7 @@
 
 You turned on GitHub Pages!
 
-Your site is now visible to the public. Check it out at https://{{ user.username }}.github.io/{{ repo }}.
+Your site is now visible to the public. Check it out at <#TODO FIX https://{{ user.username }}.github.io/{{ repo }}>.
 
 Now that you’ve completed the tasks in this issue, it's time to close it! Closing an issue tells other contributors that this particular conversation or task has come to an end.
 
