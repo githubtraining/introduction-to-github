@@ -8,7 +8,7 @@ Now, on to business! GitHub Pages allow you to serve a static site from a reposi
 
 ### :keyboard: Activity: Enable GitHub Pages
 
-1. Click on the [**Settings**](https://github.com/{{ user.username }}/{{ repo }}/settings) tab in this repository
+1. Click on the [**Settings**]({{ repoUrl }}/settings) tab in this repository
 1. Scroll down to the "GitHub Pages" section
 1. From the "Source" drop down, select **master branch**
 
