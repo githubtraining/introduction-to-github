@@ -48,7 +48,7 @@ steps:
 # 2
 - title: Turn on GitHub Pages
   description: Turn on GitHub Pages in the settings page of the repository.
-  event: deployment
+  event: page_build
   link: '{{ repoUrl }}/issues/1'
   actions:
   - type: octokit
