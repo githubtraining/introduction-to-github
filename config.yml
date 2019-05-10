@@ -120,6 +120,9 @@ steps:
     - left: '%payload.action%'
       operator: ===
       right: edited
+    - left: '%payload.action%'
+      operator: ===
+      right: synchronize
   - type: closeIssue
     issue: Your first contribution
   - type: gate
