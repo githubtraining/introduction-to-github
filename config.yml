@@ -143,7 +143,7 @@ steps:
   - type: gate
     left: '%actions.tree.data.tree%'
     operator: includes
-    right: path:/_posts\/\d{4}-\d{2}-\d{2}-%user.username%.md/
+    right: path:/_posts\/\d{4}-\d{2}-\d{2}-%user.username%\.md/
     else:
     - type: createReview
       body: fix-filename.md
