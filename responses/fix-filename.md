@@ -1,4 +1,4 @@
-I was expecting your file to be named {{ expected }}. 
+I was expecting your file to be named **{{ expected }}**. 
 
 Let's edit this pull request to fix both of these issues.
 
