@@ -17,6 +17,15 @@ preferences:
     value: cli
   - label: Use Visual Studio Code
     value: vscode
+- type: dropdown
+  name: language
+  label: Language
+  description: Choose your preferred language.
+  options:
+  - label: English
+    value: en
+  - label: 日本語
+    value: ja
 before:
 - type: updateBranchProtection
 - type: createIssue
