@@ -17,6 +17,15 @@ preferences:
     value: cli
   - label: Use Visual Studio Code
     value: vscode
+- type: dropdown
+  name: language
+  label: Language
+  description: Choose your preferred language.
+  options:
+  - label: English
+    value: en
+  - label: Español
+    value: es
 before:
 - type: updateBranchProtection
 - type: createIssue
@@ -35,6 +44,10 @@ steps:
 # 1
 - title: Assign yourself
   description: Assign the first issue to yourself.
+  translations:
+    es:
+      title: Asígnate
+      description: Asígnate el primer issue. 
   event: issues.assigned
   link: '{{ repoUrl }}/issues/1'
   actions:
@@ -48,6 +61,10 @@ steps:
 # 2
 - title: Turn on GitHub Pages
   description: Turn on GitHub Pages in the settings page of the repository.
+  translations:
+    es:
+      title: Activa GitHub Pages
+      description: Activa GitHub Pages en la página de configuración del repositorio. 
   event: page_build
   link: '{{ repoUrl }}/issues/1'
   actions:
@@ -65,6 +82,11 @@ steps:
 # 3
 - title: Close an issue
   description: Cease a conversation by closing an issue.
+  translations:
+    es:
+      title: Cierra un issue
+      description: Termina una conversación cerrando un issue. 
+  
   event: issues.closed
   link: '{{ repoUrl }}/issues/1'
   actions:
@@ -84,6 +106,10 @@ steps:
 # 4
 - title: Create a branch
   description: Create a branch for introducing new changes.
+  translations:
+    es:
+      title: Crea una rama
+      description: Crea una rama para introducir nuevos cambios. 
   event: create
   link: '{{ repoUrl }}/issues/2'
   actions:
@@ -96,6 +122,10 @@ steps:
 # 5
 - title: Commit a file
   description: Commit your file to the branch.
+  translations:
+    es:
+      title: Confirma un archivo
+      description: Confirma un archivo a tu rama. 
   event: push
   link: '{{ repoUrl }}/issues/2'
   actions:
@@ -109,6 +139,10 @@ steps:
 # 6
 - title: Open a pull request
   description: Open a pull request to propose your new file to the codebase.
+  translations:
+    es:
+      title: Abre un pull request
+      description: Abre un pull request para proponer tu nuevo archivo a la base de código. 
   event: pull_request
   link: '{{ repoUrl }}/issues/2'
   actions:
@@ -164,6 +198,10 @@ steps:
 # 7
 - title: Respond to a review
   description: Respond to a PR review.
+  translations:
+    es:
+      title: Responde a una revisión
+      description: Responde a una revisión en tu PR. 
   event: pull_request.synchronize
   link: '{{ repoUrl }}/pull/3'
   actions:
@@ -177,6 +215,10 @@ steps:
 # 8
 - title: Merge your pull request
   description: Make your changes live by merging your PR.
+  translations:
+    es:
+      title: Fusiona tu pull request
+      description: Publica tus cambios al fusionar tu PR.   
   event: pull_request.closed
   link: '{{ repoUrl }}/pull/3'
   actions:
