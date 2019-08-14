@@ -1,6 +1,6 @@
 ## Paso 1: Asígnate
 
-Issues que no han sido asignados no tienen dueños que se encarguen de ellos. Cuando te asignan un issue o pull request, esto les dice a los visitantes y colaboradores de tu repository que tú vas a estar facilitando la conversación o la tarea. 
+Las propuestas (issues) que no han sido asignadas no tienen dueños que se encarguen de ellas. Cuando te asignan una propuesta o solicitud de extracción, esto les dice a los visitantes y colaboradores de tu repositorio que tú vas a estar facilitando la conversación o la tarea. 
 
 ### :keyboard: Actividad
 
@@ -9,7 +9,7 @@ Issues que no han sido asignados no tienen dueños que se encarguen de ellos. Cu
 Para una versión impresa de los pasos en este curso, checa la [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
 
 <hr>
-<h3 align="center">Responderé cuando haya detectado que te hayas asignado este issue.</h3>
+<h3 align="center">Responderé cuando haya detectado que te hayas asignado esta propuesta.</h3>
 
-> _A veces respondo muy rápido antes de que la página se actualice! Si ya hiciste una acción esperada y no me ves responder, espera unos segundos y actualiza la página para mostrar los siguientes pasos._
+> _¡A veces respondo muy rápido antes de que la página se actualice! Si ya hiciste una acción esperada y no me ves responder, espera unos segundos y actualiza la página para mostrar los siguientes pasos._
 

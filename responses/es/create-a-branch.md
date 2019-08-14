@@ -1,6 +1,6 @@
 ## Paso 4: Crea una rama
 
-Completemos el primer paso del flujo de GitHub : crear una rama <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup>.
+Completemos el primer paso del flujo de GitHub: crear una rama <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup>.
 
 <details><summary>Creando una rama</summary>
 
@@ -10,12 +10,12 @@ Completemos el primer paso del flujo de GitHub : crear una rama <sup>[:book:](ht
 
 Acabas de aprender cómo crear una rama—el primer paso del flujo de GitHub. 
 
-Las ramas son una parte importante del flujo de GitHub porque nos permite separar nuestro trabajo de la rama `master`. En otras palabras, el trabajo de todos está a salvo mientras aportas contribuciones. 
+Las ramas son una parte importante del flujo de GitHub porque nos permite separar nuestro trabajo de la rama principal o `master`. En otras palabras, el trabajo de todos está a salvo mientras aportas contribuciones. 
 
 ### Tips para usar ramas
-Un solo proyecto puede tener cientos de ramas, cada una sugiriendo un nuevo cambio a la rama `master`.
+Un solo proyecto puede tener cientos de ramas, cada una sugiriendo un nuevo cambio a la rama principal o `master`.
 
-La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas concisas y efímeras. En otras palabras, una sola rama debería representar solamente una nueva característica o una corrección de errores. Esto permite que haya menos confusión entre colaboradores cuando las ramas solamente están activas por unos días antes de que sean unidas <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> con la rama `master`.  
+La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas concisas y efímeras. En otras palabras, una sola rama debería representar solamente una nueva característica o una corrección de errores. Esto permite que haya menos confusión entre colaboradores cuando las ramas solamente están activas por unos días antes de que sean fusionadas <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> con la rama principal o `master`.  
 
 <hr>
 </details>
@@ -23,7 +23,7 @@ La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas co
 ### :keyboard: Actividad: Tu primera rama
 
 {% if preferences.gitTool == 'cli' %}
-1. Abre tu interfaz de línea de comando preferida, a la cual llamaremos shell de aquí en adelante. 
+1. Abre tu interfaz de línea de comandos (CLI) preferida, a la cual llamaremos shell de aquí en adelante. 
 1. Clona este repositorio:
       ```shell
       git clone {{ thePayload.repository.clone_url }}
@@ -36,7 +36,7 @@ La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas co
       ```shell
       git branch my-slide
       ```
-1. Manda la rama a GitHub:
+1. Sube la rama a GitHub:
       ```
       git push --set-upstream origin <NOMBRE-DE-LA-RAMA>
       ```
@@ -62,8 +62,7 @@ La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas co
 
 1. Navega a la  [pestaña titulada Code]({{ thePayload.repository.html_url }})
 2. Haz click en **Branch: master** en el desplegable
-3. In the field, enter a name for your branch, like `my-slide`
-3. En el campo, ingresa un nombre para tu rama, como `mi-rama``
+3. En el campo, ingresa un nombre para tu rama, como `mi-rama`
 4. Haz click en **Create branch: <nombre>** o presiona la tecla "Enter" para crear tu rama
 
 {% endif %}
