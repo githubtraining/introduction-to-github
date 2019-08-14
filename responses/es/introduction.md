@@ -1,6 +1,6 @@
 # :wave: Bienvenido a "Introducción a  GitHub" de GitHub Learning Lab
 
-Para empezar, te guiaré a través de unos primeros pasos que son importantes  para programar y colaborar en GitHub. 
+Para empezar, te guiaré a través de unos primeros pasos que son importantes para programar y colaborar en GitHub. 
 
 :point_down: _Esta flecha indica que puedes expandir la ventana! Haz click en ellas durante el curso para más información._
 <details><summary>Qué es GitHub?</summary>
@@ -16,11 +16,11 @@ Desde software hasta documentos legales, puedes contar con GitHub para ayudarte 
 
 **GitHub también es una poderosa herramienta de versión de control.**
 
-GitHub usa Git <sup>[:book:](https://help.github.com/articles/github-glossary/#git)</sup>, el software de control de versión más popular para rastrear cada contribución y colaborador <sup>[:book:](https://help.github.com/articles/github-glossary/#contributor)</sup> de tu proyecto--de esta manera sabrás exactamente de donde vino cada línea de código de tu proyecto.
+GitHub usa Git <sup>[:book:](https://help.github.com/articles/github-glossary/#git)</sup>, el software de control de versión más popular para rastrear cada contribución y colaborador <sup>[:book:](https://help.github.com/articles/github-glossary/#contributor)</sup> de tu proyecto--de esta manera sabrás exactamente de dónde vino cada línea de código de tu proyecto.
 
 **GitHub ayuda a las personas a hacer mucho más.**
 
-La gente usa GitHub para construir varias de las tecnologías más avanzadas del mundo. Ya sea que estes visualizando datos o construyendo un nuevo juego, hay una comunidad entera y un set de herramientas en GitHub que te puedan llevar al siguiente nivel. Este curso empieza con lo básico pero ¡profundizaremos en el resto más tarde!
+La gente usa GitHub para construir varias de las tecnologías más avanzadas del mundo. Ya sea que estes visualizando datos o construyendo un nuevo juego, hay una comunidad entera y un set de herramientas en GitHub que te puedan llevar al siguiente nivel. Este curso empieza con lo básico pero ¡profundizaremos el resto después!
 
 :tv: [Video: ¿Qué es GitHub?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 <hr>
@@ -47,28 +47,28 @@ El video cubre algunas de las características usadas con mayor frequencia. Aqu�
 
 En el video aprendiste sobre un archivo especial llamado README.md. Aquí hay una lista de algunos otros archivos especiales que puedes añadir a tus repositorios:
 
-- CONTRIBUTING.md: El archivo `CONTRIBUTING.md` es usado para describir el proceso para contribuir al repositorio. Un link al archivo `CONTRIBUTING.md` es mostrado cada vez que alguien crea un nuevo issue o pull request. 
-- ISSUE_TEMPLATE.md: El archivo `ISSUE_TEMPLATE.md` lo puedes usar para prellenar el cuerpo de un issue. Por ejemplo, si siempres necesitas el mismo tipo de información para reportar errores puedes incluirlo en la plantilla de tu issue y cada issue nuevo será abierto con el texto que has recomendado para empezar.  
+- CONTRIBUTING.md: El archivo `CONTRIBUTING.md` es usado para describir el proceso para contribuir al repositorio. Un link al archivo `CONTRIBUTING.md` es mostrado cada vez que alguien crea una nueva propuesta o una solicitud de extracción. 
+- ISSUE_TEMPLATE.md: El archivo `ISSUE_TEMPLATE.md` lo puedes usar para prellenar el cuerpo de una propuesta. Por ejemplo, si siempres necesitas el mismo tipo de información para reportar errores puedes incluirlo en la plantilla de tu propuesta y cada nueva propuesta será abierta con el texto que has recomendado para empezar.  
 
 <hr>
 </details>
 
-### Usando issues
-Esto es un issue <sup>[:book:](https://help.github.com/articles/github-glossary/#issue)</sup>: un lugar en el que puedes tener conversaciones sobre los errores en tu código, revisiones de código y casi cualquier otra cosas que te puedas imaginar. 
+### Usando las propuestas
+Esto es una propuesta <sup>[:book:](https://help.github.com/articles/github-glossary/#issue)</sup>: un lugar en el que puedes tener conversaciones sobre los errores en tu código, revisiones de código y casi cualquier otra cosas que te puedas imaginar. 
 
-Los títulos de tus issues son como la línea de sujeto de un email. Avisan de un vistazo a tus colaboradores de que trata tu issue. Por ejemplo, el título de este issue es Getting Started with GitHub.
+Los títulos de tus propuestas son como la línea de sujeto de un email. Avisan de un vistazo a tus colaboradores de que trata tu propuesta. Por ejemplo, el título de esta propuesta es Getting Started with GitHub.
 
-<details><summary>Usando GitHub Issues</summary>
+<details><summary>Usando GitHub Issues (propuestas)</summary>
 
-## Usando GitHub issues
+## Usando propuestas de GitHub
 
-Los issues se usan para discutir ideas, mejoras, tareas y errores. Facilitan la colaboración al:
+Las propuestas se usan para discutir ideas, mejoras, tareas y errores. Facilitan la colaboración al:
 
 - Proveer a todos (incluso miembros futuros) con la historia completa en un solo lugar
-- Permitirte entrelazar tu issue con otros issues o pull requests <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>
+- Permitirte entrelazar tu propuesta con otras propuestas o una solicitud de extracción <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>
 - Crear un registro único y completo de cómo y por qué tomaste ciertas decisiones
-- Permitirte atraer fácilmente a las personas y los equipos adecuados a una conversación con menciones usando @
-:tv: [Video: Usando issues](https://www.youtube.com/watch?v=Zhj46r5D0nQ)
+- Permitirte atraer fácilmente a las personas y los equipos adecuados a una conversación con @mención
+:tv: [Video: Usando propuestas](https://www.youtube.com/watch?v=Zhj46r5D0nQ)
 
 <hr>
 </details>
@@ -80,11 +80,11 @@ Los issues se usan para discutir ideas, mejoras, tareas y errores. Facilitan la 
 
 :tv: [Video: Observando, notificaciones, estrellas y explorar](https://www.youtube.com/watch?v=ocQldxF7fMY)
 
-Una vez que hayas comentado en un issue o pull request, empezarás a recibir notificaciones por email cada vez que haya actividad en tu hilo. 
+Una vez que hayas comentado en una propuesta o solicitud de extracción, empezarás a recibir notificaciones por email cada vez que haya actividad en tu hilo. 
 
 ## Cómo silenciar o dejar de silenciar conversaciones en específico. 
 
-1. Ve al issue o pull request
+1. Ve a la propuesta o solicitud de extracción
 2. Bajo _"Notifications"_, haz click en el botón de **Unsubscribe** a la derecha para silenciar notificaciones o **Subscribe** para dejar de silenciarlas. 
 
 Verás una descripción corta que explica tu estado actual de notificaciones.
@@ -97,7 +97,7 @@ Verás una descripción corta que explica tu estado actual de notificaciones.
 
 ### Opciones de notificación de un repositorio
 
-* **Watch**: Recibirás una notificación cuando un nuevo issue, pull request o comentario ha sido publicado y también cuando un issue ha sido cerrado o un pull request ha sido unido.
+* **Watch**: Recibirás una notificación cuando una nueva propuesta, solicitud de extracción o comentario ha sido publicado y también cuando una propuesta ha sido cerrado o una solicitud de extracción ha sido fusionada.
 * **Not watching**: No vas a recibir notificaciones al menos que te hayan mencionado usando @
 * **Ignore**: No vas a recibir ningún tipo de notificación sobre este respoitorio
 

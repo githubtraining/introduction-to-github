@@ -1,25 +1,25 @@
-## Paso 8: Une tus pull request
+## Paso 8: Fusiona tu solicitud de extracción
 
 Bien hecho @{{ user.username }}! :sparkles:
 
-Has creado un pull request satisfactoriamente, y ha pasado todas las pruebas. Ahora puedes unir tu pull request.
+Has creado una solicitud de extracción satisfactoriamente, y ha pasado todas las pruebas. Ahora puedes fusionar tu solicitud de extracción.
 
-### :keyboard: Actividad: Une tu pull request
+### :keyboard: Actividad: Fusiona tu solicitud de extracción
 
 {% if preferences.gitTool == 'cli' %}
-1. Haz checkout de la rama `master`:
+1. Usa el checkout para cambiarte a la rama `master`:
     ```shell
     git checkout master
     ```
-2. Une tu rama:
+2. Fusiona tu rama:
     ```shell
     git merge {{ branch }}
     ```
-3. Empuja tu historial unido a GitHub:
+3. Sube tu historial de fusión a GitHub:
     ```shell
     git push
     ```
-4. Borra tu rama localmente:
+4. Elimina tu rama localmente:
     ```shell
     git branch -d {{ branch }}
     ```
@@ -27,7 +27,7 @@ Has creado un pull request satisfactoriamente, y ha pasado todas las pruebas. Ah
 1. Haz click en **Merge pull request**
 1. Haz click en **Confirm merge**
 {% endif %}
-1. Cuando tu rama se haya unido, no la necesitarás nuevamente. Haz click en **Delete branch**.
+1. Cuando tu rama se haya fusionado, ya no la vas a necesitar. Haz click en **Delete branch**.
 
 <hr>
-<h3 align="center">Responderé cuando este pull request se haya unido.</h3>
+<h3 align="center">Responderé cuando esta solicitud de extracción se haya fusionado.</h3>
