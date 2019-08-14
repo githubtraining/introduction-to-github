@@ -3,7 +3,7 @@
 Para empezar, te guiaré a través de unos primeros pasos que son importantes para programar y colaborar en GitHub. 
 
 :point_down: _Esta flecha indica que puedes expandir la ventana! Haz click en ellas durante el curso para más información._
-<details><summary>Qué es GitHub?</summary>
+<details><summary>¿Qué es GitHub?</summary>
 <hr>
   
 ## ¿Qué es GitHub?
