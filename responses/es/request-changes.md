@@ -2,7 +2,7 @@
 
 ¡Tu solicitud de extracción se ve súper bien!
 
-Agreguemos contenido a tu archivo. Reemplaza la línea 5 de tu archivo con una cita textual o con un meme y una leyenda chistosa. Recuerda: Usar el formato[Markdown](https://guides.github.com/features/mastering-markdown/) es aceptado.
+Agreguemos contenido a tu archivo. Reemplaza la línea 5 de tu archivo con una cita textual o con un meme y una leyenda chistosa. Recuerda: Usar el formato [Markdown](https://guides.github.com/features/mastering-markdown/) es aceptado.
 
 ### :keyboard: Actividad: Actualiza tu archivo
 
