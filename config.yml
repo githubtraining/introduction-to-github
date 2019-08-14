@@ -48,6 +48,9 @@ steps:
     es:
       title: Asígnate
       description: Asígnate el primer issue. 
+    ja:
+      title: 担当者になろう
+      description: 初めてのイシューの担当者になりましょう。
   event: issues.assigned
   link: '{{ repoUrl }}/issues/1'
   actions:
@@ -65,6 +68,9 @@ steps:
     es:
       title: Activa GitHub Pages
       description: Activa GitHub Pages en la página de configuración del repositorio. 
+    ja:
+      title: GitHub Pagesを有効化しよう
+      description: リポジトリの設定画面でGitHub Pagesを有効化しましましょう。
   event: page_build
   link: '{{ repoUrl }}/issues/1'
   actions:
@@ -86,6 +92,9 @@ steps:
     es:
       title: Cierra un issue
       description: Termina una conversación cerrando un issue. 
+    ja:
+      title: Issueを閉じよう
+      description: Issueを閉じることで議論を終えましょう。
   
   event: issues.closed
   link: '{{ repoUrl }}/issues/1'
@@ -110,6 +119,9 @@ steps:
     es:
       title: Crea una rama
       description: Crea una rama para introducir nuevos cambios. 
+    ja:
+      title: ブランチを作ろう
+      description: 新しい変更をするためのブランチを作りましょう。
   event: create
   link: '{{ repoUrl }}/issues/2'
   actions:
@@ -126,6 +138,9 @@ steps:
     es:
       title: Confirma un archivo
       description: Confirma un archivo a tu rama. 
+    ja:
+      title: ファイルをコミットしよう
+      description: ブランチにファイルをコミットしましょう。
   event: push
   link: '{{ repoUrl }}/issues/2'
   actions:
@@ -142,7 +157,10 @@ steps:
   translations:
     es:
       title: Abre un pull request
-      description: Abre un pull request para proponer tu nuevo archivo a la base de código. 
+      description: Abre un pull request para proponer tu nuevo archivo a la base de código.
+    ja:
+      title: プルリクエストをオープンしよう
+      description: 新しいファイルをコードベースに追加する提案をするためにプルリクエストをオープンしましょう。 
   event: pull_request
   link: '{{ repoUrl }}/issues/2'
   actions:
@@ -201,7 +219,10 @@ steps:
   translations:
     es:
       title: Responde a una revisión
-      description: Responde a una revisión en tu PR. 
+      description: Responde a una revisión en tu PR.
+    ja:
+      title: レビューに対応しよう
+      description: プルリクエストへのレビューへの対応をしましょう。 
   event: pull_request.synchronize
   link: '{{ repoUrl }}/pull/3'
   actions:
@@ -218,7 +239,10 @@ steps:
   translations:
     es:
       title: Fusiona tu pull request
-      description: Publica tus cambios al fusionar tu PR.   
+      description: Publica tus cambios al fusionar tu PR.
+    ja:
+      title: プルリクエストをマージしよう
+      description: プルリクエストをマージすることで変更を取り込みましょう。   
   event: pull_request.closed
   link: '{{ repoUrl }}/pull/3'
   actions:
