@@ -47,7 +47,7 @@ steps:
   translations:
     es:
       title: Asígnate
-      description: Asígnate el primer issue. 
+      description: Asígnate la primera propuesta. 
     ja:
       title: 担当者になろう
       description: 初めてのイシューの担当者になりましょう。
@@ -90,8 +90,8 @@ steps:
   description: Cease a conversation by closing an issue.
   translations:
     es:
-      title: Cierra un issue
-      description: Termina una conversación cerrando un issue. 
+      title: Cierra una propuesta
+      description: Termina una conversación al cerrar una propuesta. 
     ja:
       title: Issueを閉じよう
       description: Issueを閉じることで議論を終えましょう。
@@ -156,8 +156,8 @@ steps:
   description: Open a pull request to propose your new file to the codebase.
   translations:
     es:
-      title: Abre un pull request
-      description: Abre un pull request para proponer tu nuevo archivo a la base de código.
+      title: Abre una solicitud de extracción
+      description: Abre una solicitud de extracción para proponer agregar tu nuevo archivo al proyecto.
     ja:
       title: プルリクエストをオープンしよう
       description: 新しいファイルをコードベースに追加する提案をするためにプルリクエストをオープンしましょう。 
@@ -219,7 +219,7 @@ steps:
   translations:
     es:
       title: Responde a una revisión
-      description: Responde a una revisión en tu PR.
+      description: Responde a una revisión en tu solicitud de extracción.
     ja:
       title: レビューに対応しよう
       description: プルリクエストへのレビューへの対応をしましょう。 
@@ -238,8 +238,8 @@ steps:
   description: Make your changes live by merging your PR.
   translations:
     es:
-      title: Fusiona tu pull request
-      description: Publica tus cambios al fusionar tu PR.
+      title: Fusiona tu solicitud de extracción
+      description: Publica tus cambios al fusionar tu solicitud de extracción.
     ja:
       title: プルリクエストをマージしよう
       description: プルリクエストをマージすることで変更を取り込みましょう。   
