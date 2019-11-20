@@ -30,6 +30,9 @@ The steps in this course are:
 {{ courseSteps }}
 
 # Getting help
+
+Here are some ways you can get help:
+
 - This course has a dedicated message board on the [GitHub Community]({{ communityBoard }}) website. If you want to discuss this course with GitHub Trainers or other participants create a post over there. The message board can also be used to troubleshoot any issue you encounter while taking this course.
 
 - To report bugs or request changes to the course, please open an [issue in the author's repository]({{ courseRepo }}).

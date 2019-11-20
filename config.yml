@@ -257,6 +257,6 @@ steps:
     with: reminder-delete.md
 
 tags: [
-  "Git","GitHub","Branches","Commits","Pull Requests"
+  "Git","GitHub Pages","Branches","Commits","Pull Requests"
 ]
 video: "sz6zfrQpCQg"
