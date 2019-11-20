@@ -8,13 +8,22 @@ Now, with GitHub Learning Lab, you’ve got a sidekick along your path to becomi
 
 From managing notifications to merging pull requests, GitHub Learning Lab’s “Introduction to GitHub” course guides you through everything you need to start contributing in less than an hour. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
 
-In this course, you’ll learn how to:
+# What you'll learn
 
+We'll answer common questions like: 
+- What is GitHub?
+- How does one use GitHub?
+- What are issues and pull requests?
+- How do you create a branch and a commit?
+- How do you use GitHub Pages? 
+
+And when you're done you'll be able to:
 - Communicate in issues
 - Manage notifications
 - Create branches
 - Make commits
 - Introduce changes with pull requests
+- Deploy a web page to GitHub pages
 
 # What you'll build
 ![a gif of a slide show running on a browser](https://user-images.githubusercontent.com/16547949/69274863-44362880-0ba9-11ea-98f6-b58cfc9eab02.gif)
