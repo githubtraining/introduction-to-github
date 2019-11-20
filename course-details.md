@@ -1,3 +1,7 @@
+# Estimated duration
+45 minutes
+
+# Course description
 People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better.
 
 Now, with GitHub Learning Lab, you’ve got a sidekick along your path to becoming an all-star developer.
@@ -12,4 +16,32 @@ In this course, you’ll learn how to:
 - Make commits
 - Introduce changes with pull requests
 
-This course has a dedicated message board on the [GitHub Community]({{ communityBoard }}) website. If you want to discuss this course with GitHub Trainers or other participants create a post over there. The message board can also be used to troubleshoot any issue you encounter while taking this course.
+# What you'll build
+![a gif of a slide show running on a browser](https://user-images.githubusercontent.com/16547949/69274863-44362880-0ba9-11ea-98f6-b58cfc9eab02.gif)
+
+- Completed [source repository](https://github.com/githubtraining/github-slideshow-demo/)
+- Interactive [slideshow](https://githubtraining.github.io/github-slideshow-demo/) deployed to GitHub Pages.
+
+# Prerequisites
+None. This course is a great introduction on its own.
+
+# Course steps
+The steps in this course are:
+{{ courseSteps }}
+
+# Getting help
+- This course has a dedicated message board on the [GitHub Community]({{ communityBoard }}) website. If you want to discuss this course with GitHub Trainers or other participants create a post over there. The message board can also be used to troubleshoot any issue you encounter while taking this course.
+
+- To report bugs or request changes to the course, please open an [issue in the author's repository]({{ courseRepo }}).
+
+# Projects used
+This makes use of the following open source projects. Consider exploring these repos and maybe even making contributions!
+- [reveal.js](https://github.com/hakimel/reveal.js): A framework for creating presentations using HTML
+- [Jekyll](https://github.com/jekyll/jekyll): a simple, blog-aware, static site generator.
+
+# Keep learning
+The following courses are great complements to _Introduction to GitHub_:
+
+- [GitHub Pages](https://lab.github.com/githubtraining/github-pages)
+- [Reviewing pull requests](https://lab.github.com/githubtraining/reviewing-pull-requests)
+- [Introduction to HTML](https://lab.github.com/githubtraining/introduction-to-html)
