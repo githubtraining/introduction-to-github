@@ -45,3 +45,14 @@ The following courses are great complements to _Introduction to GitHub_:
 - [GitHub Pages](https://lab.github.com/githubtraining/github-pages)
 - [Reviewing pull requests](https://lab.github.com/githubtraining/reviewing-pull-requests)
 - [Introduction to HTML](https://lab.github.com/githubtraining/introduction-to-html)
+
+# Audience
+
+New developers, new GitHub users, users new to Git, students, managers, teams
+
+# Release
+This course was last updated on Wednesday, October 23, 2019.
+
+# License
+
+The course logic is licensed [CC-BY-4.0](https://github.com/githubtraining/introduction-to-github/blob/master/LICENSE) and the template repository is licensed [MIT](https://github.com/githubtraining/caption-this-template/blob/master/LICENSE).
