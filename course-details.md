@@ -23,7 +23,7 @@ In this course, you’ll learn how to:
 - Interactive [slideshow](https://githubtraining.github.io/github-slideshow-demo/) deployed to GitHub Pages.
 
 # Prerequisites
-None. This course is a great introduction on its own.
+None. This course is a great introduction for your first day on GitHub.
 
 # Course steps
 The steps in this course are:
