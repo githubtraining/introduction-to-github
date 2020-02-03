@@ -1,6 +1,3 @@
-# Estimated duration
-45 minutes
-
 # Course description
 People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better.
 
@@ -34,37 +31,11 @@ And when you're done you'll be able to:
 # Prerequisites
 None. This course is a great introduction for your first day on GitHub.
 
-# Course steps
-The steps in this course are:
-{{ courseSteps }}
-
-# Getting help
-
-Here are some ways you can get help:
-
-- This course has a dedicated message board on the [GitHub Community]({{ communityBoard }}) website. If you want to discuss this course with GitHub Trainers or other participants create a post over there. The message board can also be used to troubleshoot any issue you encounter while taking this course.
-
-- To report bugs or request changes to the course, please open an [issue in the author's repository]({{ courseRepo }}).
-
 # Projects used
 This makes use of the following open source projects. Consider exploring these repos and maybe even making contributions!
 - [reveal.js](https://github.com/hakimel/reveal.js): A framework for creating presentations using HTML
 - [Jekyll](https://github.com/jekyll/jekyll): a simple, blog-aware, static site generator.
 
-# Keep learning
-The following courses are great complements to _Introduction to GitHub_:
-
-- [GitHub Pages](https://lab.github.com/githubtraining/github-pages)
-- [Reviewing pull requests](https://lab.github.com/githubtraining/reviewing-pull-requests)
-- [Introduction to HTML](https://lab.github.com/githubtraining/introduction-to-html)
-
 # Audience
 
 New developers, new GitHub users, users new to Git, students, managers, teams
-
-# Release
-This course was last updated on Wednesday, October 23, 2019.
-
-# License
-
-The course logic is licensed [CC-BY-4.0](https://github.com/githubtraining/introduction-to-github/blob/master/LICENSE) and the template repository is licensed [MIT](https://github.com/githubtraining/caption-this-template/blob/master/LICENSE).
