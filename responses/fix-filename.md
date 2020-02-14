@@ -23,7 +23,7 @@ Let's edit this pull request to fix both of these issues.
 {% else %}
 1. Click the [Files Changed tab]({{ url }}) in this pull request
 1. Verify that the only file edited is named `{{ expected }}`.
-1. If the file is improperly named, or not in an improper location, click on the pencil icon found on the right side of the screen to edit it.
+1. If the file is improperly named, or not in a proper location, use the edit function to correct it.
 1. Above the contents of the file, select all text in the field that contains the filename and delete it.
 1. Continue pressing your backspace key to also delete any directory names that exist.
 1. Type the proper filename:
@@ -32,6 +32,8 @@ Let's edit this pull request to fix both of these issues.
     ```
 1. Scroll to the bottom and enter a commit message and commit in the **Commit Changes** section.
 {% endif %}
+
+**Note**: Can't find the button to edit the file? It may look like a pencil, or it may look like three dots.
 
 If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
 
