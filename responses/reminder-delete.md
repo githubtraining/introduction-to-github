@@ -18,6 +18,10 @@ Before I say good-bye, here's a recap of all the tasks you've accomplished in yo
 - You enabled GitHub Pages
 - You made your first contribution! :tada:  
 
+## Give us feedback
+
+We'd love to hear what you thought of this course. Please share your feedback in [this brief survey](https://www.surveymonkey.com/r/intro-to-github-1).
+
 ## What's next?
 
 We hope this course helped you feel more comfortable using GitHub. Remember: You’re always welcome to repeat course topics if you’d like additional practice. If you’re ready to build on your new skills, here are some ideas.
