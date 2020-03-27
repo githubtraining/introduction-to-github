@@ -1,30 +1,30 @@
-## Étape 6: Open a pull request
+## Étape 6: Ouvrez une demande d'extraction (Pull Request)
 
-Nice work making that commit :sparkles:
+Bravo pour cette contribution :sparkles:
 
-Now that you’ve created a commit, it’s time to share your proposed change through a pull request! Where issues encourage discussion with other contributors and collaborators on a project, pull requests help you share your changes, receive feedback on them, and iterate on them until they’re perfect!
+Maintenant que vous avez créé une contribution, il est temps de partager la modification que vous proposez via une demande d'extraction ! Là où les conversations (Issues) encouragent l'échange avec d'autres contributeurs et collaborateurs sur un projet, les demandes d'extraction vous aident à partager vos modifications, à recevoir des commentaires à leur sujet et à itérer jusqu'à ce qu'elles soient parfaites !
 
-<details><summary>What is a pull request?</summary>
+<details><summary>Qu'est-ce qu'une demande d'extraction ?</summary>
 
 ## Pull requests
 
-Let’s think back to the GitHub flow again. You have created a branch, added a file, and committed the file to your branch. Now it’s time to collaborate on your file with other students taking this class. This collaboration happens in a pull request. Check out this video to learn more:
+Revenons au flux GitHub. Vous avez créé une branche, ajouté un fichier et validé le fichier dans votre branche. Il est maintenant temps de collaborer sur votre dossier avec d'autres étudiants qui suivent ce cours. Cette collaboration se produit dans une demande d'extractione. Regardez cette vidéo pour en savoir plus :
 
-:tv: [Video: Introduction to pull requests](https://youtu.be/kJr-PIfLDl4)
+:tv: [Video: Introduction aux demandes d'extraction](https://youtu.be/kJr-PIfLDl4)
 <hr>
 </details>
 
-This pull request is going to keep the changes you just made on your branch and propose applying them to the `master` branch.
+Cette demande d'extraction va conserver les modifications que vous venez de faire sur votre branche tout en proposant de les appliquer également à la branche `master`.
 
-### :keyboard: Activity: Create a pull request
+### :keyboard: Activité: Créer une demande d'extraction
 
-1. Open a pull request using [this shortcut]({{ url }}) or manually as follows:
-    - From the "Pull requests" tab, click **New pull request**
-    - In the "base:" drop-down menu, make sure the "master" branch is selected
-    - In the "compare:" drop-down menu, select "{{ branch | remove: 'refs/heads/' }}"
-1. When you’ve selected your branch, enter a title for your pull request. For example `Add {{ user.username }}'s file`
-1. The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
-1. Click **Create pull request**
+1. Ouvrez une demande d'extraction grâce à [ce raccourci]({{ url }}) ou manuellement comme suit :
+    - Depuis l'onglet "Pull requests", cliquez **New pull request**
+    - Dans le menu déroulant "base:", assurez vous quel la branche `master` est sélectionnée
+    - Dans le menu déroulant "compare:", sélectionnez "{{ branch | remove: 'refs/heads/' }}"
+1. Lorsque vous avez sélectionné votre branche, saisissez un titre pour votre demande d'extraction. Par exemple `Ajout du fichier de {{ user.username }}`
+1. Le champ suivant vous aide à fournir une description des modifications que vous avez apportées. N'hésitez pas à ajouter une description de ce que vous avez accompli jusqu'à présent. Pour rappel, vous avez: créé une branche, créé un fichier et effectué une contribution, et ouvert une demande d'extraction
+1. Cliquez **Create pull request**
 
 <hr>
-<h3 align="center">I'll respond in your new pull request.</h3>
+<h3 align="center">Je vous réponderai dans votre nouvelle demande d'extraction.</h3>

@@ -109,7 +109,7 @@ You'll see a short description that explains your current notification status.
 1. Click your profile icon
 2. Click **Settings**
 3. Click **Notification** from the menu on the left
-4. Click on the [repositories you’re watching](https://github.com/watching) link
+4. Click on the [things you’re watching](https://github.com/watching) link
 5. Select the **Watching** tab
 6. Click the **Unwatch** button to disable notifications, or **Watch** to enable them
 

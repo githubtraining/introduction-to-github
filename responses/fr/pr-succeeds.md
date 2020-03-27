@@ -1,33 +1,33 @@
-## Étape 8: Merge your pull request
+## Étape 8: Fusionnez votre demande d'extraction
 
-Nicely done @{{ user.username }}! :sparkles:
+Bien joué @{{ user.username }} ! :sparkles:
 
-You successfully created a pull request, and it has passed all of the tests. You can now merge your pull request.
+Vous avez créé avec succès une demande d'extraction et elle a réussi tous les tests. Vous pouvez maintenant fusionner votre demande d'extraction.
 
-### :keyboard: Activity: Merge the pull request
+### :keyboard: Activité: Fusionnez votre demande d'extraction
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to the `master` branch:
+1. Récupérez votre branche `master` :
     ```shell
     git checkout master
     ```
-2. Merge your branch:
+2. Fusionnez votre branche :
     ```shell
     git merge {{ branch }}
     ```
-3. Push the merged history to GitHub:
+3. Publiez l'historique combiné vers GitHub :
     ```shell
     git push
     ```
-4. Delete your the branch locally:
+4. Supprimez la branche locale :
     ```shell
     git branch -d {{ branch }}
     ```
 {% else %}
-1. Click **Merge pull request**
-1. Click **Confirm merge**
+1. Cliquez **Merge pull request**
+1. Cliquez **Confirm merge**
 {% endif %}
-1. Once your branch has been merged, you don't need it anymore. Click **Delete branch**.
+1. Une fois votre branche fusionnée, vous n'en avez plus besoin. Cliquez **Delete branch**.
 
 <hr>
-<h3 align="center">I'll respond when this pull request is merged.</h3>
+<h3 align="center">Je vous répondrai lorsque cette demande d'extraction sera fusionnée.</h3>
