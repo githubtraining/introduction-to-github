@@ -1,4 +1,4 @@
-## Consider this issue finished! :white_check_mark:
+## Cette conversation est terminée! :white_check_mark:
 
 <hr>
-<h3 align="center">Head over to <a href="{{ issueURL }}">the next issue</a> now!</h3>
+<h3 align="center">Procédez à <a href="{{ issueURL }}">la prochaine tâche</a> maintenant !</h3>

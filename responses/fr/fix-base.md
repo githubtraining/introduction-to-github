@@ -1,12 +1,12 @@
-Your base branch should be named `master`. Let's open a new pull request to fix this.
+Votre branche de référence doit être nommée `master`. Ouvrons une demande d'extraction (Pull Request en anglais ou PR) afin de corriger cela.
 
-### :keyboard: Activity: Adjust PR direction
+### :keyboard: Activité: Modifier la direction de la demande d'extraction
 
-1. Click on the **Edit** button located to the right of your pull request's title
-1. Below the title's comment box, in the "base:" drop-down menu, make sure the “master” branch is selected
-1. A pop-up window will appear asking if you want to change the "base". Click the green **Change base** button
+1. Cliquez sur le bouton **Edit** situé à droite du titre de la PR
+1. Sous le champ de texte du titre, dans le menu déroulant "base:", assurez vous que la branche `master` est sélectionnée
+1. Une boite de dialogue apparaitra vous demandeant si vous voulez changer la base. Cliquez le bouton vert **Change base**
 
-If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+Si vous avez besoin d'assistance, créez une convesation sur le forum [GitHub Community]({{ communityBoard }}). Vous pouvez également y effectuer une recherche et vérifiez si d'autres n'ont pas rencontré et résolu un problème similaire dans le passé. 
 
 <hr>
-<h3 align="center">I'll respond when I detect this pull request's base has been edited.</h3>
+<h3 align="center">Je vous réponderai lorsque j'aurai détecté que la référence d'oririne de cette PR a été modifiée.</h3>

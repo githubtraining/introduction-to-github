@@ -102,8 +102,8 @@ steps:
       title: Cierra una propuesta
       description: Termina una conversación al cerrar una propuesta. 
     fr:
-      title: Fermeture de la discussion
-      description: Termminer la conversation en la cloturant.
+      title: Fermeture de la conversation
+      description: Termminer la conversation (Issue en :uk:) en la cloturant.
     ja:
       title: Issueを閉じよう
       description: Issueを閉じることで議論を終えましょう。
@@ -178,7 +178,7 @@ steps:
       description: Abre una solicitud de extracción para proponer agregar tu nuevo archivo al proyecto.
     fr:
       title: Ouverture d'une demande d'extraction
-      description: Ouvrez une demande d'extraction afin de proposer l'ajout de votre fichier au projet.
+      description: Ouvrez une demande d'extraction (Pull Request en :uk:) afin de proposer l'ajout de votre fichier au projet.
     ja:
       title: プルリクエストをオープンしよう
       description: 新しいファイルをコードベースに追加する提案をするためにプルリクエストをオープンしましょう。 

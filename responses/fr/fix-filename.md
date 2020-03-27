@@ -1,41 +1,41 @@
-I was expecting your file to be named **{{ expected }}**. 
+J'espérai que votre fichier soit nommé **{{ expected }}**. 
 
-Let's edit this pull request to fix both of these issues.
+Editons cette demande d'extraction (Pull Request ou PR) afin de corriger ce problème.
 
-## :keyboard: Activity: Fixing your pull request
+## :keyboard: Activité: Corriger votre demande d'extraction
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to your branch:
+1. Récupérez votre branche :
     ```shell
     git checkout {{ branch }}
     ```
-1. Type `ls` to see a listing of your root directory.
-1. Confirm that you've got a folder titled `_posts`.
-1. Step into the folder with `cd _posts`.
-1. Type `ls` to see a listing of your `_posts` folder.
-1. Ensure you've got a file named `{{ expected }}`
-1. If you find you have to any changes, then stage, commit, and push those changes:
+1. Tapez `ls` afin d'obtenir le contenu votre répertoire racine.
+1. Confirmez que vous possédez un répertoire nommé `_posts`.
+1. Déplacez vous dans le répertoire à l'aide de la commande `cd _posts`.
+1. Tapez `ls` afin d'obtenir le contenu votre répertoire `_posts`.
+1. Vérifiez que vous possédez un fichier nommé `{{ expected }}`.
+1. Si vous constatez que vous devez effectuer des changements, ajoutez les à l'espace de travail, soumettez puis publiez les :
     ```shell
     git add .
     git commit -m "<YOUR-MESSAGE>"
     git push
     ```
 {% else %}
-1. Click the [Files Changed tab]({{ url }}) in this pull request
-1. Verify that the only file edited is named `{{ expected }}`.
-1. If the file is improperly named, or not in a proper location, use the edit function to correct it.
-1. Above the contents of the file, select all text in the field that contains the filename and delete it.
-1. Continue pressing your backspace key to also delete any directory names that exist.
-1. Type the proper filename:
+1. Cliquez [l'onglet Files Changed]({{ url }}) dans cette demande d'extraction
+1. Vérifiez que le seul fichier édité se nomme `{{ expected }}`.
+1. Si le fichier n'est pas correctement nommé, ou n'est pas au bon endroit, utilisez la fonctionalité d'édition afin de corriger cela.
+1. Au dessus du contenu du fichier, sélectionnez tout le texte du champ contenant le nom du fichier et supprimez ce texte.
+1. Continuez de pressez la touche retour arrière (<kbd>Backspace</kbd>) afin de supprimer également d'éventuels noms de répertoire.
+1. Saisissez le nom de fichier correct:
     ```shell
     {{ expected }}
     ```
-1. Scroll to the bottom and enter a commit message and commit in the **Commit Changes** section.
+1. Faites defiler la fenêtre jusqu'en bas puis, dans la section **Commit Changes**, saisissez un intitulé de contribution et soumettez la.
 {% endif %}
 
-**Note**: Can't find the button to edit the file? It may look like a pencil, or it may look like three dots.
+**Note**: Vous ne trouvez pas le bouton d'édition du fichier ? Il peut ressemble à un crayon ou a des points de suspension.
 
-If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+ISi vous avez besoin d'assistance, créez une convesation sur le forum [GitHub Community]({{ communityBoard }}). Vous pouvez également y effectuer une recherche et vérifiez si d'autres n'ont pas rencontré et résolu un problème similaire dans le passé. 
 
 <hr>
-<h3 align="center">I'll respond below when I detect a commit on this branch.</h3>
+<h3 align="center">Je vous réponderai lorsque j'aurai détecté une contribution sur cette branche.</h3>

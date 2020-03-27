@@ -1,14 +1,14 @@
-Good pull requests have a body description that tells other contributors about the change you're suggesting, so they understand the context.
+Les bonnes demandes d'extraction (Pull Request) comportent une description qui informe les autres contributeurs du changement que vous suggérez et de son contexte.
 
-Let's edit this pull request to add a body description.
+Editons cette demande d'extraction afin d'ajouter une description.
 
-## :keyboard: Activity: Fixing your pull request
+## :keyboard: Activité: Améliorer la demande d'extraction
 
-1. The first comment on your pull request will have the default text of **No description provided**. Click on the **...** icon located at the top right corner of the comment box, then click on **Edit** to make an edit
-1. Add a description of the changes you've made in the comment box. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
-1. Click the green **Update comment** button at the bottom right of the comment box when done
+1. Le premier commentaire de votre demande d'extraction comportera le texte par défaut **No description provided**. Cliquez l'icône **...** située en haut à droite de la boite de commentaire, puis cliquez sur **Edit** afin d'effectuer un changement
+1. Ajoutez dans la boite de commentaire une description du changement que vous avez effectué. N'hésitez pas à décrire ce que vous avez accompli jusque là. Pour rappel, vous avez : créé une branche, créé un fichier et soumis une contribution puis ouvert une demande d'extraction
+1. Cliquez le bouton vert **Update comment** en bas à droite de la boite de commentaire
 
-If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+Si vous avez besoin d'assistance, créez une convesation sur le forum [GitHub Community]({{ communityBoard }}). Vous pouvez également y effectuer une recherche et vérifiez si d'autres n'ont pas rencontré et résolu un problème similaire dans le passé. 
 
 <hr>
-<h3 align="center">I'll respond when I detect this pull request's body has been edited.</h3>
+<h3 align="center">Je vous réponderai lorsque j'aurai détecté que le corps de cette demande d'extraction a été édité.</h3>
