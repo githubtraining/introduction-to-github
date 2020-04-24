@@ -6,15 +6,15 @@ Félicitations @{{ user.username }}, vous avez achevé ce cours !
 
 ## Les temps forts
 
-Vous avez désormais votre présentation déployée [ici](https://{{ user.username }}.github.io/{{ repo }}) et vous l'avez fait en suivant le Flux GitHub.
+Vous avez désormais votre présentation déployée [ici](https://{{ user.username }}.github.io/{{ repo }}) et vous l'avez fait en suivant le workflow de GitHub.
 
-Avant de vous dire au revoire, récapitulons les tâches accomplies dans ce dépôt:
+Avant de vous dire au revoir, récapitulons les tâches accomplies dans ce dépôt:
 
-- You made your first contribution! :tada:  
-- Vous avez découvert les conversations, les demandes d'extraction et la structure d'un dépôt GitHub
+- Vous avez effectué votre première contribution ! :tada:  
+- Vous avez découvert les Issues, les Pull Requests et la structure d'un dépôt GitHub
 - Vous avez découvert les branches
 - Vous avez créé une soumission
-- Vous avez consulté et répondu aux relectures sur les demandes d'extraction
+- Vous avez consulté et répondu aux relectures sur les Pull Requests
 - Vous avez édité un fichier existant
 - Vous avez activé GitHub Pages
 - Vous avez effectuer votre première contribution !

@@ -55,7 +55,7 @@ Les prochaines étapes vous guideront à travers le processus de soumission d'un
       ```
 
 {% elsif preferences.gitTool == 'vscode' %}
-1. Dans le dossier `_posts`, créez un nouveau fichier nommé `0000-01-02-{{ user.username }}.md`. Le chemin complet de votre fichier doit être: `_posts/0000-01-02-{{ user.username }}.md`.
+1. Dans le dossier `_posts`, créez un nouveau fichier nommé `0000-01-02-{{ user.username }}.md`. Le nom complet de votre fichier doit être: `_posts/0000-01-02-{{ user.username }}.md`.
 1. Ajoutez le contenu suivant à votre fichier et enregistrez-le :
       ```yaml 
       ---
@@ -65,7 +65,7 @@ Les prochaines étapes vous guideront à travers le processus de soumission d'un
       Your text
       Use the left arrow to go back!
       ```
-1. Pour ajouter votre fichier à l'espace d travail : allez dans la vue Source Control et cliquez le bouton **+** à côté du fichier. Vous pouvez également vous référer à [la documentation officielle de VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_commit).
+1. Pour ajouter votre fichier à l'espace de travail : allez dans la vue Source Control et cliquez le bouton **+** à côté du fichier. Vous pouvez également vous référer à [la documentation officielle de VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_commit).
       ![a screenshot of the staging button in the source control view](https://user-images.githubusercontent.com/16547949/53641057-d5b8d100-3bfb-11e9-9b69-53b0661cd5cd.png)
 1. Soumetez le changement en saisissant un intitulé dans le champ de texte puis en pressant <kbd>Ctrl+Enter</kbd> sur Windows ou <kbd>Command ⌘+Enter</kbd> sur macOS.
       ![a screenshot of the commit message on VS Code](https://user-images.githubusercontent.com/16547949/53641276-698a9d00-3bfc-11e9-9b3d-01680fd01d7c.png)
@@ -74,7 +74,7 @@ Les prochaines étapes vous guideront à travers le processus de soumission d'un
 {% else %}
 1. Sur cette branche, créez un dossier `_posts` et ajoutez y un nouveau fichier nommé `0000-01-02-{{ user.username }}.md`. Vous pouvez le faire en utilisant [ce raccourci]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=_posts/0000-01-02-{{ user.username }}.md) ou manuellement comme suit:
       - Retournez à l'onglet "Code"
-      - Dans la liste déroulante des brnaches, sélectionnez "{{ thePayload.ref }}"
+      - Dans la liste déroulante des branches, sélectionnez "{{ thePayload.ref }}"
       - Cliquez **Create new file**
       - Dans le champ "file name", saisissez `_posts/0000-01-02-{{ user.username }}.md`. La saisie de `/` dans le nom de fichier placera automatiquement votre fichier dans le répertoire `_posts`.
 1. Lorsque vous aurez nommé le fichier, ajoutez-y le contenu suivant:
@@ -90,4 +90,4 @@ Les prochaines étapes vous guideront à travers le processus de soumission d'un
 1. Une fois saisis votre intitulé de contribution, cliquez **Commit new file**
 {% endif %}
 <hr>
-<h3 align="center">Je vous répondérai lorque j'aurai détecté une nouvelle contibution sur cette branche.</h3>
+<h3 align="center">Je vous répondrai lorsque j'aurai détecté une nouvelle contibution sur cette branche.</h3>

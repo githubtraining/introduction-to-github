@@ -53,7 +53,7 @@ steps:
       description: Asígnate la primera propuesta. 
     fr:
       title: Assignation
-      description: Assignez-vous la première conversation. 
+      description: Assignez-vous la première Issue. 
     ja:
       title: 担当者になろう
       description: 初めてのイシューの担当者になりましょう。
@@ -76,7 +76,7 @@ steps:
       description: Activa GitHub Pages en la página de configuración del repositorio. 
     fr:
       title: Activation de GitHub Pages
-      description: Activez GitHub Pages sur la page de réglages du dépôt. 
+      description: Activez GitHub Pages sur la page de configuration du dépôt. 
     ja:
       title: GitHub Pagesを有効化しよう
       description: リポジトリの設定画面でGitHub Pagesを有効化しましましょう。
@@ -102,8 +102,8 @@ steps:
       title: Cierra una propuesta
       description: Termina una conversación al cerrar una propuesta. 
     fr:
-      title: Fermeture de la conversation
-      description: Termminer la conversation (Issue en :uk:) en la cloturant.
+      title: Fermer l'Issue
+      description: Achevez l'Issue en la cloturant.
     ja:
       title: Issueを閉じよう
       description: Issueを閉じることで議論を終えましょう。
@@ -177,8 +177,8 @@ steps:
       title: Abre una solicitud de extracción
       description: Abre una solicitud de extracción para proponer agregar tu nuevo archivo al proyecto.
     fr:
-      title: Ouverture d'une demande d'extraction
-      description: Ouvrez une demande d'extraction (Pull Request en :uk:) afin de proposer l'ajout de votre fichier au projet.
+      title: Ouverture d'une Pull Request
+      description: Ouvrez une Pull Request afin de proposer l'ajout de votre fichier au projet.
     ja:
       title: プルリクエストをオープンしよう
       description: 新しいファイルをコードベースに追加する提案をするためにプルリクエストをオープンしましょう。 
@@ -243,7 +243,7 @@ steps:
       description: Responde a una revisión en tu solicitud de extracción.
     fr:
       title: Réponse à une revue
-      description: Répondez à la relecture de votre demande d'extraction.
+      description: Répondez à la relecture de votre Pull Request.
     ja:
       title: レビューに対応しよう
       description: プルリクエストへのレビューへの対応をしましょう。 
@@ -266,7 +266,7 @@ steps:
       description: Publica tus cambios al fusionar tu solicitud de extracción.
     fr:
       title: Fusion de la Pull Request
-      description: Livrez vos changement en fusionant votre demande d'extraction.
+      description: Livrez vos changement en fusionant votre Pull Request.
     ja:
       title: プルリクエストをマージしよう
       description: プルリクエストをマージすることで変更を取り込みましょう。   

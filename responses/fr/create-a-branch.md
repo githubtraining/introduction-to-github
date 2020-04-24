@@ -1,6 +1,6 @@
 ## Étape 4: Création d'une branche
 
-Réalisons la première étape de notre démarche typique sur GitHub : la création d'une branche <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup>.
+Réalisons la première étape d'une démarche typique sur GitHub : la création d'une branche <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup>.
 
 <details><summary>Création d'une branche</summary>
 
@@ -10,13 +10,13 @@ Réalisons la première étape de notre démarche typique sur GitHub : la créat
 
 Vous venez d'apprendre à créer une branche, la première étape du travail sur GitHub.
 
-Les branches sont des éléments importants de la démarche sur GitHub car elles nous permettent d'isoler le travail en cours de la branhe principale `master`. En d'autres termes, le travail des autres est protégé pendant que vous mettez au point votre contribution.
+Les branches sont des éléments importants de la démarche sur GitHub car elles nous permettent d'isoler le travail en cours de la branche principale `master`. En d'autres termes, le travail des autres est protégé pendant que vous mettez au point votre contribution.
 
 ### Conseils pour l'utilisation de branches
 
 Un projet seul peut avoir des centaines de branches, chacune comportant une nouvelle modification de la branche `master`.
 
-La meilleure façon de gérer ces branches quand on travaille en équipe et de veiller à les maintenir consises et éphémères. Autrement dit, une branche doit comporter une seule nouvelle fonctionalité ou correction de bug. Les incompréhensions entre contributeurs sont réduites lorsque les branches ne sont actives que quelques jours avant d'être fusionnées <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> avec la branche `master`.
+La meilleure façon de gérer ces branches quand on travaille en équipe est de veiller à les maintenir concises et éphémères. Autrement dit, une branche doit comporter une seule nouvelle fonctionalité ou correction de bug. Les incompréhensions entre contributeurs sont réduites lorsque les branches ne sont actives que quelques jours avant d'être fusionnées <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> avec la branche `master`.
 
 <hr>
 </details>
@@ -51,10 +51,10 @@ La meilleure façon de gérer ces branches quand on travaille en équipe et de v
       ```shell
       {{ thePayload.repository.clone_url }}
       ```
-1. Sélectionnez l'emplacement où sauvegarder le dépôt et cliquer **Choose folder**. Ouvrez ensuite l'emplacement que vous avez sélectionné.
+1. Sélectionnez l'emplacement où sauvegarder le dépôt et cliquez **Choose folder**. Ouvrez ensuite l'emplacement que vous avez sélectionné.
 1. Le répertoire du dépôt doit maintenant être ouvert dans votre espace de travail VS Code. Cliquez sur `master` en bas et à gauche de la fenêtre VS Code. Ceci ouvrira la palette avec les commandes relatives aux branches Git.
       ![a screenshot of the Git branches in VS Code](https://user-images.githubusercontent.com/16547949/53639606-adc76e80-3bf7-11e9-98ac-bd41ae2b40db.png)
-1. Cliquez **Create new branch** et saisissez le nom que vous désirez, par exemple `my-slide`. Pressez ensuite <kbd>Enter</kbd>.
+1. Cliquez sur **Create new branch** et saisissez le nom que vous désirez, par exemple `my-slide`. Pressez ensuite <kbd>Enter</kbd>.
 1. Lorsqu'il vous est demandé de sélectioner la référence à partir de laquelle créer la branche, sélectioner `master`.
 1. Allez dans la vue "Source Control", cliquez sur les points de suspension (...) et séléctionnez **Push**. Confirmez lorsque le boite de dialogue vous propose de publier la branche.
       ![a screenshot of the source control view in VS Code](https://user-images.githubusercontent.com/16547949/53640015-ee73b780-3bf8-11e9-8c90-be9022b9555a.png)
@@ -68,4 +68,4 @@ La meilleure façon de gérer ces branches quand on travaille en équipe et de v
 
 {% endif %}
 <hr>
-<h3 align="center">Je vous réponderai ici lorsque j'aurai détecté qu'une nouvelle branche a été crée dans ce dépôt.</h3>
+<h3 align="center">Je vous répondrai ici lorsque j'aurai détecté qu'une nouvelle branche a été crée dans ce dépôt.</h3>

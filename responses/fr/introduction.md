@@ -1,8 +1,8 @@
-# :wave: Bienvue au cours "Introduction à GitHub" de GitHub Learning Lab 
+# :wave: Bienvenue au cours "Introduction à GitHub" de GitHub Learning Lab 
 
 Pour commencer, je vais vous guider à travers quelques premières étapes importantes de la programmation et la collaboration sur GitHub.
 
-:point_down: _Cette flèche signifie que vous pouvez agrandir la fenêtre! Cliquez dessus tout au long du cours pour trouver plus d'informations._
+:point_down: _Cette flèche signifie que vous pouvez agrandir la fenêtre. Cliquez dessus tout au long du cours pour trouver plus d'informations._
 <details><summary>Qu'est-ce que GitHub?</summary>
 <hr>
 
@@ -10,10 +10,9 @@ Pour commencer, je vais vous guider à travers quelques premières étapes impor
 
 Merci d'avoir posé cette question! Beaucoup de gens viennent sur GitHub parce qu'ils veulent contribuer à des projets libres (open source <sup>[:book:](https://help.github.com/articles/github-glossary/#open-source)</sup>), ou ils sont invités par des collègues ou des camarades de classe qui l'utilisent pour leurs projets. Pourquoi les gens utilisent-ils GitHub pour ces projets?
 
-**En son cœur, GitHub est une plateforme de collaboration.**
+**GitHub est une plateforme de collaboration.**
 
-Des logiciels aux documents juridiques, vous pouvez compter sur GitHub pour vous aider à le meilleur travail possible avec les outils de collaboration et de sécurité dont votre équipe a besoin. Avec GitHub, vous pouvez garder des projets complètement privés, inviter le monde à collaborer et fluidifier chaque étape de votre projet.
-
+Des logiciels aux documents juridiques, vous pouvez compter sur GitHub pour vous aider à réaliser le meilleur travail possible avec les outils de collaboration et de sécurité dont votre équipe a besoin. Avec GitHub, vous pouvez garder des projets complètement privés ou inviter des personnes à collaborer et fluidifier chaque étape de votre projet.
 
 **GitHub est également un puissant outil de contrôle de version.**
 
@@ -40,35 +39,35 @@ La vidéo a couvert certaines des fonctionnalités les plus utilisées. Voici qu
 
 - Tableaux de suvi de projet : créez un tableau de suivi des tâches de style Kanban dans GitHub
 - Wiki : créer et stocker la documentation relative à votre projet
-- Insights : affichez des outils d'analyse pour votre référentiel, notamment :
+- Insights : affichez des outils d'analyse pour votre dépôt, notamment :
    - Pulse: tableau de bord de projet pemettant la recherche d'information sur les travaux terminés et les travaux en cours
-   - Graphiques : les graphiques fournissent une vue plus granulaire de l'activité du dépôt, y compris qui a contribué au dépôt, qui l'a créé et quand ils ont effectué des contributions
+   - Graphiques : les graphiques fournissent une vue plus granulaire de l'activité du dépôt, donnant des détails sur qui a contribué au dépôt, qui l'a créé et quand les contributions ont été effectuées
 
 ### Fichiers spéciaux
 
 Dans la vidéo, vous avez découvert un fichier spécial appelé README.md. Voici quelques autres fichiers spéciaux que vous pouvez ajouter à vos dépôts :
 
-- CONTRIBUTING.md: Le fichier `CONTRIBUTING.md` est utilisé pour décrire le processus de contribution au dépôts. Un lien vers le fichier `CONTRIBUTING.md` est affiché chaque fois que quelqu'un crée un nouveau problème ou une demande d'extraction.
-- ISSUE_TEMPLATE.md: `ISSUE_TEMPLATE.md` est un autre fichier que vous pouvez utiliser pour préremplir le corps d'une conversation. Par exemple, si vous avez toujours besoin des mêmes types d'informations pour les rapports de bogues, incluez-les dans le modèle de conversation, et chaque nouvelle conversation sera ouverte avec votre texte de démarrage recommandé.
+- CONTRIBUTING.md: Le fichier `CONTRIBUTING.md` est utilisé pour décrire le processus de contribution aux dépôts. Un lien vers le fichier `CONTRIBUTING.md` est affiché chaque fois que quelqu'un crée une nouvelle Issue ou une Pull Request.
+- ISSUE_TEMPLATE.md: ISSUE_TEMPLATE.md est un autre fichier que vous pouvez utiliser pour préremplir le corps d'une Issue. Par exemple, si vous avez toujours besoin des mêmes types d'informations pour les rapports de bugs, incluez-les dans le modèle d'Issue, et chaque nouvelle Issue sera ouverte avec votre texte de démarrage recommandé.
 
 <hr>
 </details>
 
 ### Utiliser les Issues
 
-Ceci est une Issue <sup>[:book:](https://help.github.com/articles/github-glossary/#issue)</sup>: un endroit où vous pouvez avoir des conversations sur les bogues dans votre code, la révision du code et à peu près tout le reste.
+Ceci est une Issue <sup>[:book:](https://help.github.com/articles/github-glossary/#issue)</sup>: un endroit où vous pouvez avoir des conversations sur les bugs dans votre code, la révision du code et à peu près tout le reste.
 
-Les titres des Issues sont comme les lignes d'objet des e-mails. Ils indiquent à vos collaborateurs de quoi il s'agit en un coup d'œil. Par exemple, le titre de cette conversation est "Getting started with GitHub".
+Les titres des Issues sont comme les lignes d'objet des e-mails. Ils indiquent à vos collaborateurs de quoi il s'agit en un coup d'œil. Par exemple, le titre de cette Issue est "Getting started with GitHub".
 
 <details><summary>Utiliser les Issues GitHub</summary>
 
 ## Utiliser les Issues GitHub
 
-Les Issues sont utilisées pour discuter des idées, des améliorations, des tâches et des bogues. Elles facilitent la collaboration en :
+Les Issues sont utilisées pour discuter des idées, des améliorations, des tâches et des bugs. Elles facilitent la collaboration en :
 
-- Fournissant à tout le monde (même aux futurs membres de l'équipe) l'histoire complète en un seul endroit
-- En permettant les références croisées avec d'autres conversations et demandes d'extraction <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>
-- Centralisant dans un reférentiel unique les décisions et leurs motivations
+- Fournissant à tout le monde (même aux futurs membres de l'équipe) l'historique complet en un seul endroit
+- En permettant les références croisées avec d'autres Issues et Pull Requests <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>
+- Centralisant dans un dépôt unique les décisions et leurs motivations
 - Vous permettant d'inclure facilement les bonnes personnes et les bonnes équipes dans une conversation avec les @-mentions
 
 :tv: [Video: Utiliser les Issues GitHub](https://www.youtube.com/watch?v=Zhj46r5D0nQ)
@@ -83,11 +82,11 @@ Les Issues sont utilisées pour discuter des idées, des améliorations, des tâ
 
 :tv: [Video: Watching, notifications, stars, et explore](https://www.youtube.com/watch?v=ocQldxF7fMY)
 
-Une fois que vous avez commenté une conversation ou une demande d'extraction, vous commencerez à recevoir des notifications par e-mail dès lors qu'il y aura de l'activité dans le fil.
+Une fois que vous avez commenté une Issue ou une Pull Request, vous commencerez à recevoir des notifications par e-mail dès lors qu'il y aura de l'activité dans le fil d'actualité.
 
-### Comment faire taire ou réactiver des conversations spécifiques
+### Comment faire taire ou réactiver des Issues spécifiques
 
-1. Aller à la conversation ou la demande d'extraction
+1. Aller à l'Issue ou la Pull Request
 2. Sous _"Notifications"_, cliquez le bouton **Unsubscribe** à droite afin de taire les notifications ou le bouton **Subscribe** afin de les activer
 
 Vous verrez une courte description qui explique votre statut de notification actuel.
@@ -100,11 +99,11 @@ Vous verrez une courte description qui explique votre statut de notification act
 
 ### Options de notification du dépôt
 
-* **Watch**: Vous recevrez une notification lorsqu'une nouvelle conversation, une demande d'extraction ou un commentaire est publié, et lorsqu'une conversation est fermé ou qu'une demande d'extraction est fusionnée
+* **Watch**: Vous recevrez une notification lorsqu'une nouvelle Issue, une Pull Request ou un commentaire est publié, et lorsqu'une Issue est fermé ou qu'une Pull Request est fusionnée
 * **Not watching**: Vous ne recevrez plus de notifications sauf si vous êtes @-mentionné
 * **Ignore**: Vous ne recevrez plus de notifications du dépôt
 
-### Comment configurere les notifications des dépots que vous suivez
+### Comment configurer les notifications des dépots que vous suivez
 
 1. Cliquez votre photo de profil
 1. Cliquez **Settings**

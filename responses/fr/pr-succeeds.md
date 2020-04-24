@@ -1,10 +1,10 @@
-## Étape 8: Fusionnez votre demande d'extraction
+## Étape 8: Fusionnez votre Pull Request
 
 Bien joué @{{ user.username }} ! :sparkles:
 
-Vous avez créé avec succès une demande d'extraction et elle a réussi tous les tests. Vous pouvez maintenant fusionner votre demande d'extraction.
+Vous avez créé avec succès une Pull Request et elle a passé tous les tests avec succès. Vous pouvez maintenant fusionner votre Pull Request.
 
-### :keyboard: Activité: Fusionnez votre demande d'extraction
+### :keyboard: Activité: Fusionnez votre Pull Request
 
 {% if preferences.gitTool == 'cli' %}
 1. Récupérez votre branche `master` :
@@ -24,10 +24,10 @@ Vous avez créé avec succès une demande d'extraction et elle a réussi tous le
     git branch -d {{ branch }}
     ```
 {% else %}
-1. Cliquez **Merge pull request**
-1. Cliquez **Confirm merge**
+1. Cliquez sur **Merge pull request**
+1. Cliquez sur  **Confirm merge**
 {% endif %}
 1. Une fois votre branche fusionnée, vous n'en avez plus besoin. Cliquez **Delete branch**.
 
 <hr>
-<h3 align="center">Je vous répondrai lorsque cette demande d'extraction sera fusionnée.</h3>
+<h3 align="center">Je vous répondrai lorsque cette Pull Request sera fusionnée.</h3>

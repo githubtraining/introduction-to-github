@@ -1,8 +1,8 @@
 ### Introduction au flux GitHub
 
-Maintenant que vous connaissez les conversations, utilisons ce problème pour suivre votre cheminement vers votre première contribution.
+Maintenant que vous connaissez les Issues, utilisons ce problème pour suivre votre cheminement vers votre première contribution.
 
-Les gens utilisent différents flux de travail pour contribuer à des projets logiciels, mais le moyen le plus simple et le plus efficace de contribuer sur GitHub est le flux GitHub.
+Les gens utilisent différents workflows pour contribuer à des projets logiciels, mais le moyen le plus simple et le plus efficace de contribuer sur GitHub est le workflow GitHub.
 
 :tv: [Video: Comprendre le flux GitHub](https://www.youtube.com/watch?v=PBI2Rz-ZOxU)
 
