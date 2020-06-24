@@ -27,6 +27,8 @@ preferences:
     value: es
   - label: 日本語
     value: ja
+  - label: Français
+    value: fr
 before:
 - type: updateBranchProtection
 - type: createIssue
@@ -49,6 +51,9 @@ steps:
     es:
       title: Asígnate
       description: Asígnate la primera propuesta. 
+    fr:
+      title: Assignation
+      description: Assignez-vous la première Issue. 
     ja:
       title: 担当者になろう
       description: 初めてのイシューの担当者になりましょう。
@@ -69,6 +74,9 @@ steps:
     es:
       title: Activa GitHub Pages
       description: Activa GitHub Pages en la página de configuración del repositorio. 
+    fr:
+      title: Activation de GitHub Pages
+      description: Activez GitHub Pages sur la page de configuration du dépôt. 
     ja:
       title: GitHub Pagesを有効化しよう
       description: リポジトリの設定画面でGitHub Pagesを有効化しましましょう。
@@ -93,6 +101,9 @@ steps:
     es:
       title: Cierra una propuesta
       description: Termina una conversación al cerrar una propuesta. 
+    fr:
+      title: Fermer l'Issue
+      description: Achevez l'Issue en la cloturant.
     ja:
       title: Issueを閉じよう
       description: Issueを閉じることで議論を終えましょう。
@@ -120,6 +131,9 @@ steps:
     es:
       title: Crea una rama
       description: Crea una rama para introducir nuevos cambios. 
+    fr:
+      title: Création d'une branche
+      description: Créez une branche afin d'introduire un changement.
     ja:
       title: ブランチを作ろう
       description: 新しい変更をするためのブランチを作りましょう。
@@ -139,6 +153,9 @@ steps:
     es:
       title: Confirma un archivo
       description: Confirma un archivo a tu rama. 
+    fr:
+      title: Soumettre un fichier
+      description: Ajoutez un fichier à votre branche.
     ja:
       title: ファイルをコミットしよう
       description: ブランチにファイルをコミットしましょう。
@@ -159,6 +176,9 @@ steps:
     es:
       title: Abre una solicitud de extracción
       description: Abre una solicitud de extracción para proponer agregar tu nuevo archivo al proyecto.
+    fr:
+      title: Ouverture d'une Pull Request
+      description: Ouvrez une Pull Request afin de proposer l'ajout de votre fichier au projet.
     ja:
       title: プルリクエストをオープンしよう
       description: 新しいファイルをコードベースに追加する提案をするためにプルリクエストをオープンしましょう。 
@@ -221,6 +241,9 @@ steps:
     es:
       title: Responde a una revisión
       description: Responde a una revisión en tu solicitud de extracción.
+    fr:
+      title: Réponse à une revue
+      description: Répondez à la relecture de votre Pull Request.
     ja:
       title: レビューに対応しよう
       description: プルリクエストへのレビューへの対応をしましょう。 
@@ -241,6 +264,9 @@ steps:
     es:
       title: Fusiona tu solicitud de extracción
       description: Publica tus cambios al fusionar tu solicitud de extracción.
+    fr:
+      title: Fusion de la Pull Request
+      description: Livrez vos changement en fusionant votre Pull Request.
     ja:
       title: プルリクエストをマージしよう
       description: プルリクエストをマージすることで変更を取り込みましょう。   

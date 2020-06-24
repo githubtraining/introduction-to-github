@@ -13,17 +13,17 @@ Let's edit this pull request to fix both of these issues.
 1. Confirm that you've got a folder titled `_posts`.
 1. Step into the folder with `cd _posts`.
 1. Type `ls` to see a listing of your `_posts` folder.
-1. Ensure you've got a file named `{{ expected }}`
-1. If you find you have to any changes, then stage, commit, and push those changes:
+1. Ensure you've got a file named `{{ expected }}`.
+1. If you find you have to make any changes, then stage, commit, and push those changes:
     ```shell
     git add .
     git commit -m "<YOUR-MESSAGE>"
     git push
     ```
 {% else %}
-1. Click the [Files Changed tab]({{ url }}) in this pull request
+1. Click the [Files Changed tab]({{ url }}) in this pull request.
 1. Verify that the only file edited is named `{{ expected }}`.
-1. If the file is improperly named, or not in a proper location, use the edit function to correct it.
+1. If the file is improperly named, or not in a proper location, use the edit function to correct it. 
 1. Above the contents of the file, select all text in the field that contains the filename and delete it.
 1. Continue pressing your backspace key to also delete any directory names that exist.
 1. Type the proper filename:
