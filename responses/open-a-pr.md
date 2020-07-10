@@ -10,7 +10,7 @@ Now that you’ve created a commit, it’s time to share your proposed change th
 
 Let’s think back to the GitHub flow again. You have created a branch, added a file, and committed the file to your branch. Now it’s time to collaborate on your file with other students taking this class. This collaboration happens in a pull request. Check out this video to learn more:
 
-:tv: [Video: Introduction to pull requests](https://youtu.be/kJr-PIfLDl4)
+:tv: [Video: Introduction to pull requests](https://youtube/kJr-PIfLDl4)
 <hr>
 </details>
 

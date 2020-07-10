@@ -10,7 +10,7 @@ Maintenant que vous avez créé une contribution, il est temps de partager la mo
 
 Revenons au workflow de GitHub. Vous avez créé une branche, ajouté un fichier et validé le fichier dans votre branche. Il est maintenant temps de collaborer sur votre dossier avec d'autres étudiants qui suivent ce cours. Cette collaboration se produit dans une Pull Request. Visionnez cette vidéo pour en savoir plus :
 
-:tv: [Video: Introduction aux Pull Requests](https://youtu.be/kJr-PIfLDl4)
+:tv: [Video: Introduction aux Pull Requests](https://youtube/kJr-PIfLDl4)
 <hr>
 </details>
 

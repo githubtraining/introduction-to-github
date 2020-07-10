@@ -10,7 +10,7 @@ Ahora que has creado una confirmación de cambios, ¡es hora de compartir los ca
 
 Pensemos de nuevo en el flujo de GitHub. Has creado una rama, agregaste un archivo, e hiciste una confirmación de cambios de ese archivo en tu rama. Ahora es hora de colaborar en tu archivo con otros estudiantes que toman esta clase. Esta colaboración sucede dentro de una solicitud de extracción. Ve este video para aprender más:
 
-:tv: [Video: Introducción a las solicitudes de extracción](https://youtu.be/kJr-PIfLDl4)
+:tv: [Video: Introducción a las solicitudes de extracción](https://youtube/kJr-PIfLDl4)
 <hr>
 </details>
 
