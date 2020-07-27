@@ -6,7 +6,7 @@ Congratulations @{{ user.username }}, you've completed this course!
 
 ## What went well
 
-Now, you have your slide deck deployed [here]({{ store.pagesUrl }}) and you've gone through the GitHub Flow.
+Now, you have your slide deck deployed [here](https://{{ user.username }}.github.io/{{ repo }}) and you've gone through the GitHub Flow.
 
 Before I say good-bye, here's a recap of all the tasks you've accomplished in your repository:
 

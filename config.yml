@@ -83,13 +83,16 @@ steps:
   event: page_build
   link: '{{ repoUrl }}/issues/1'
   actions:
-  - type: enablePages
-    required: false
-    store: 
-      pagesUrl: '{{ result.data.html_url }}'
+  - type: octokit
+    method: repos.getPages
+    owner: '%payload.repository.owner.login%'
+    repo: '%payload.repository.name%'
+    action_id: pagesUrl
   - type: respond
     issue: Getting Started with GitHub
     with: close-issue.md
+    data:
+      pagesUrl: '%actions.pagesUrl.data.html_url%'
 
 # 3
 - title: Close an issue
