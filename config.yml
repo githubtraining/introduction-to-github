@@ -83,16 +83,12 @@ steps:
   event: page_build
   link: '{{ repoUrl }}/issues/1'
   actions:
-  - type: octokit
-    method: repos.getPages
-    owner: '%payload.repository.owner.login%'
-    repo: '%payload.repository.name%'
-    action_id: pagesUrl
+  - type: enablePages
+    store: 
+      pagesUrl: '{{ result.data.html_url }}'
   - type: respond
     issue: Getting Started with GitHub
     with: close-issue.md
-    data:
-      pagesUrl: '%actions.pagesUrl.data.html_url%'
 
 # 3
 - title: Close an issue
@@ -278,8 +274,6 @@ steps:
     else:
       - type: respond
         with: reopen.md
-  - type: enablePages
-    store: '{{ result.data.html_url }}'
   - type: respond
     with: reminder-delete.md
 
