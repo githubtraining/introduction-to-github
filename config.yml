@@ -84,6 +84,7 @@ steps:
   link: '{{ repoUrl }}/issues/1'
   actions:
   - type: enablePages
+    required: false
     store: 
       pagesUrl: '{{ result.data.html_url }}'
   - type: respond
