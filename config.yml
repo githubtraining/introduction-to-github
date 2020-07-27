@@ -278,6 +278,8 @@ steps:
     else:
       - type: respond
         with: reopen.md
+  - type: enablePages
+    store: '{{ result.data.html_url }}'
   - type: respond
     with: reminder-delete.md
 
