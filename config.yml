@@ -33,9 +33,9 @@ before:
 - type: updateBranchProtection
 - type: createIssue
   title: Getting Started with GitHub
-  body: introduction.md
+  body: 00_introduction.md
   comments:
-    - assign-yourself.md
+    - 00_assign-yourself.md
 
 # Course artifacts:
 #   1. Issue: Getting started with GitHub
@@ -65,7 +65,7 @@ steps:
     operator: ===
     right: '%user.username%'
   - type: respond
-    with: turn-on-gh-pages.md
+    with: 01_turn-on-gh-pages.md
 
 # 2
 - title: Turn on GitHub Pages
@@ -92,7 +92,7 @@ steps:
     action_id: pagesUrl
   - type: respond
     issue: Getting Started with GitHub
-    with: close-issue.md
+    with: 02_close-issue.md
 
 # 3
 - title: Close an issue
@@ -114,13 +114,13 @@ steps:
   - type: createIssue
     action_id: contrib_issue
     title: Your first contribution
-    body: your-first-contribution.md
+    body: 03_your-first-contribution.md
     comments:
-      - create-a-branch.md
+      - 03_create-a-branch.md
     data:
       thePayload: '%payload%'
   - type: respond
-    with: head-to-branch.md
+    with: 03_head-to-branch.md
     data:
       issueURL: '%actions.contrib_issue.data.html_url%'
 
@@ -142,7 +142,7 @@ steps:
   actions:
   - type: respond
     issue: Your first contribution
-    with: commit-something.md
+    with: 04_commit-something.md
     data:
       thePayload: '%payload%'
 
@@ -164,7 +164,7 @@ steps:
   actions:
   - type: respond
     issue: Your first contribution
-    with: open-a-pr.md
+    with: 05_open-a-pr.md
     data:
       branch: '%payload.ref%'
       url: '%payload.repository.html_url%/compare/%payload.ref%?expand=1'
@@ -202,7 +202,7 @@ steps:
     left: '%payload.pull_request.body%'
     else: 
     - type: createReview
-      body: fix-body.md
+      body: 06_fix-body.md
       event: REQUEST_CHANGES
   - type: gate
     left: '%payload.pull_request.base.ref%'
@@ -210,7 +210,7 @@ steps:
     right: master
     else:
     - type: createReview
-      body: fix-base.md
+      body: 06_fix-base.md
       event: REQUEST_CHANGES
   - type: getTree
     action_id: tree
@@ -222,13 +222,13 @@ steps:
     right: path:/_posts\/\d{4}-\d{2}-\d{2}-%user.username%\.md/
     else:
     - type: createReview
-      body: fix-filename.md
+      body: 06_fix-filename.md
       event: REQUEST_CHANGES
       data:
         expected: _posts/0000-01-02-%user.username%.md
         url: '%payload.pull_request.html_url%/files'
   - type: createReview
-    body: request-changes.md
+    body: 06_request-changes.md
     event: 'COMMENT'
     data:
       branch: '%payload.pull_request.head.ref%'
@@ -252,7 +252,7 @@ steps:
   actions:
   - type: removeBranchProtection
   - type: createReview
-    body: pr-succeeds.md
+    body: 07_pr-succeeds.md
     event: APPROVE
     data:
       branch: '%payload.pull_request.head.ref%'
@@ -277,9 +277,9 @@ steps:
     left: '%payload.pull_request.merged%'
     else:
       - type: respond
-        with: reopen.md
+        with: 08_reopen.md
   - type: respond
-    with: reminder-delete.md
+    with: 08_reminder-delete.md
 
 tags: [
   "Git","GitHub Pages","Branches","Commits","Pull Requests"
