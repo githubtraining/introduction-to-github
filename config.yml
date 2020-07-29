@@ -87,12 +87,12 @@ steps:
     method: repos.getPages
     owner: '%payload.repository.owner.login%'
     repo: '%payload.repository.name%'
+    store:
+      pagesUrl: '{{ result.data.html_url }}'
     action_id: pagesUrl
   - type: respond
     issue: Getting Started with GitHub
     with: 02_close-issue.md
-    data:
-      pagesUrl: '%actions.pagesUrl.data.html_url%'
 
 # 3
 - title: Close an issue
