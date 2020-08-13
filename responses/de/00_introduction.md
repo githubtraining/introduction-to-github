@@ -1,120 +1,120 @@
-# :wave: Welcome to GitHub Learning Lab's "Introduction to GitHub"
+# :wave: Willkommen bei GitHub Learning Labs “Einführung zu GitHub”!
 
-To get started, I’ll guide you through some important first steps in coding and collaborating on GitHub.
+Zuerst leite ich dich durch einige wichtige erste Schritte für das Codieren und die Zusammenarbeit mit GitHub. 
 
-:point_down: _This arrow means you can expand the window! Click on them throughout the course to find more information._
-<details><summary>What is GitHub?</summary>
+:point_down: _Dieser Pfeil bedeutet, dass du das Fenster erweitern kannst! Klicke während des gesamten Kurses darauf, um weitere Information zu erhalten._
+<details><summary>Was ist GitHub?</summary>
 <hr>
 
-## What is GitHub?
+## Was ist GitHub?
 
-I'm glad you asked! Many people come to GitHub because they want to contribute to open source <sup>[:book:](https://help.github.com/articles/github-glossary/#open-source)</sup> projects, or they're invited by teammates or classmates who use it for their projects. Why do people use GitHub for these projects?
+Das freut mich, dass du fragst! Viele Leute kommen zu GitHub, weil sie zu Open Source <sup>[:book:](https://help.github.com/articles/github-glossary/#open-source)</sup> Projekten beitragen wollen, oder weil sie von Teamkollegen oder Klassenkameraden eingeladen werden, die GitHub für ihre Projekte verwenden. Warum verwenden diese Leute GitHub für diese Projekte? 
 
-**At its heart, GitHub is a collaboration platform.**
+**GitHub ist das Herzstück einer Kollaborationsplattform.**
 
-From software to legal documents, you can count on GitHub to help you do your best work with the collaboration and security tools your team needs. With GitHub, you can keep projects completely private, invite the world to collaborate, and streamline every step of your project.
+Von Software bis hin zu juristischen Dokumenten kannst du dich auf GitHub verlassen, um deine beste Arbeit mit den Tools für die Zusammenarbeit und Sicherheit zu leisten, die Ihr Team benötigt. Mit GitHub kannst du Projekte vollständig privat halten, die Welt zu mitwirken einladen und jeden Schritt deines Projekts optimieren.
 
-**GitHub is also a powerful version control tool.**
+**GitHub ist auch ein mächtige/leistungsstarkes Versionskontroll-Tool.**
 
-GitHub uses Git <sup>[:book:](https://help.github.com/articles/github-glossary/#git)</sup>, the most popular open source version control software, to track every contribution and contributor <sup>[:book:](https://help.github.com/articles/github-glossary/#contributor)</sup> to your project--so you know exactly where every line of code came from.
+GitHub verwendet Git, <sup>[:book:](https://help.github.com/articles/github-glossary/#git)</sup>, die beliebteste Open-Source-Versionskontrollsoftware, um jeden Beitrag und Beiträger zu deinem Projekt zu verfolgen. So weißt du genau, woher jede Codezeile stammt.
 
-**GitHub helps people do much more.**
+**GitHub hilft Leute, viel mehr zu erreichen.**
 
-GitHub is used to build some of the most advanced technologies in the world. Whether you're visualizing data or building a new game, there's a whole community and set of tools on GitHub that can get you to the next step. This course starts with the basics, but we'll dig into the rest later!
+Mit GitHub werden einige der fortschrittlichsten Technologien der Welt erstellt. Egal, ob du Daten visualisieren oder ein neues Spiel erstellen, auf GitHub gibt es eine ganze Community und eine Reihe von Tools, mit denen du zum nächsten Schritt gelangen kann. Diese Kurse fangt mit die Grundlagen an, aber wir gehen richtig an die Sache später! 
 
-:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+:tv: [Video: (Auf English) What is GitHub?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 <hr>
 </details><br>
 
-<details><summary>Exploring a GitHub repository</summary>
+<details><summary>Erkunden eines GitHub-Repository</summary>
 <hr>
 
-## Exploring a GitHub repository
+## Erkunden eines GitHub-Repository
 
-:tv: [Video: Exploring a repository](https://www.youtube.com/watch?v=R8OAwrcMlRw)
+:tv: [Video: (Auf English) Exploring a repository](https://www.youtube.com/watch?v=R8OAwrcMlRw)
 
-### More features
+### Weitere Eigenschaften
 
-The video covered some of the most commonly-used features. Here are a few other items you can find in GitHub repositories:
+Das Video hat einege der häufigsten verwendete Funktionen behandelt.
+Es gibt einige andere Dinge, dass du in GitHub-Repositories finden kann:
 
-- Project boards: Create Kanban-style task tracking board within GitHub
-- Wiki: Create and store relevant project documentation
-- Insights: View a drop-down menu that contains links to analytics tools for your repository including:
-  - Pulse: Find information about the work that has been completed and the work that’s in-progress in this project dashboard
-  - Graphs: Graphs provide a more granular view of the repository activity including who contributed to the repository, who forked it, and when they completed the work
+- Project boards: Erstelle in GitHub ein Task-Tracking-Board im Kanban-Stil
+- Wiki: Erstelle und lage relevante Projektdokumentation
+  - Insights: Zeige ein Dropdown-Menü an, das Links zu Analysetools für dein Repository enthält, darunter:
+  - Pulse: In diesem Projekt-Dashboard finde Informationen von die abgeschlossen und im Gange Aufgaben in diese
+  - Graphs: Graphs bereitstellen eine detaillierte Aussicht von die Repository-Aktivität, einschließlich die Personen, die zum Repository beigetragen haben, die es geforkt haben und wann die Arbeit abgeschlossen haben
 
-### Special Files
+### Spezielle Dateien
 
-In the video you learned about a special file called the README.md. Here are a few other special files you can add to your repositories:
+In dem Video hast du etwas über eine speziellen Datei, dass README.md heißt, gelernt.
+Es gibt einige andere spezielle Datei, dass du deine Repositories hinzufügen kann: 
 
-- CONTRIBUTING.md: The `CONTRIBUTING.md` is used to describe the process for contributing to the repository. A link to the `CONTRIBUTING.md` file is shown anytime someone creates a new issue or pull request.
-- ISSUE_TEMPLATE.md: The `ISSUE_TEMPLATE.md` is another file you can use to pre-populate the body of an issue. For example, if you always need the same types of information for bug reports, include it in the issue template, and every new issue will be opened with your recommended starter text.
+- CONTRIBUTING.md: Die `CONTRIBUTING.md` Datei ist für die Prozess für den Beitrag zum Repository zu beschreiben. Ein Link zur `CONTRIUTING.md` Datei wird angezeigt, wenn jemand ein neues Issue oder eine Pull-Request erstellt.
+- ISSUE_TEMPLATE.md: Die `ISSUE_TEMPLATE.md` ist eine andere Datei, dass du den Hauptteil eines Issue vorbevölkern verwenden kann. Zum Beispiel, wenn man immer die gleichen Arten von Informationen für Issues braucht, einschließe in der Issue-Vorlage, und jedes neue Issue wirt mit deinem empfohlenen Startertext ausgefüllt. 
+<hr>
+</details>
+
+### Issues verwenden
+
+Das ist ein Issue <sup>[:book:](https://help.github.com/articles/github-glossary/#issue)</sup>: ein Platz wo du über Fehler in der Code, Codeüberprüfung und ziemlich alles andere sprechen kann.
+
+Issue-Titel sind wie Email-Betreffzeilen.  Issue-Titel teilen deine Mitarbeitern auf einem Blick mit, worum es bei den Issue geht. Der Titel dieser Issue ist, zum Beispiel, “Erste Schritte mit GitHub”.
+
+<details><summary>Verwenden von GitHub-Issues</summary>
+
+## Verwenden von GitHub-Issues
+
+Issues sind für Ideen, Verbesserungen, Aufgaben, und Fehler zum übersprechen. Sie erleichtern die Zusammenarbeit durch:
+
+- Bereitstellung der vollständigen Geschichte für alle (auch für zukünftige Teammitglieder) an einem Ort
+- Verlinken andere Issues an Pull Request
+<sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>
+- Erstellen einer einzigen umfassenden Aufzeichnung darüber, wie und warum bestimmte Entscheidungen getroffen wurde 
+- Ganz einfach Beziehen die richtigen Personen und Teams in ein Gespräch mit `@-Erwähnungen`
+
+:tv: [Video: (Auf English) Issues verwenden](https://www.youtube.com/watch?v=Zhj46r5D0nQ)
 
 <hr>
 </details>
 
-### Using issues
-
-This is an issue <sup>[:book:](https://help.github.com/articles/github-glossary/#issue)</sup>: a place where you can have conversations about bugs in your code, code review, and just about anything else.
-
-Issue titles are like email subject lines. They tell your collaborators what the issue is about at a glance. For example, the title of this issue is Getting Started with GitHub.
-
-
-<details><summary>Using GitHub Issues</summary>
-
-## Using GitHub issues
-
-Issues are used to discuss ideas, enhancements, tasks, and bugs. They make collaboration easier by:
-
-- Providing everyone (even future team members) with the complete story in one place
-- Allowing you to cross-link to other issues and pull requests <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>
-- Creating a single, comprehensive record of how and why you made certain decisions
-- Allowing you to easily pull the right people and teams into a conversation with @-mentions
-
-:tv: [Video: Using issues](https://www.youtube.com/watch?v=Zhj46r5D0nQ)
-
-<hr>
-</details>
-
-<details><summary>Managing notifications</summary>
+<details><summary>Benachrichtigungen verwalten</summary>
 <hr>
 
-## Managing notifications
+## Benachrichtigungen verwalten
 
-:tv: [Video: Watching, notifications, stars, and explore](https://www.youtube.com/watch?v=ocQldxF7fMY)
+:tv: [Video: Watching, Benachrichtigungen, Stars, und Explore](https://www.youtube.com/watch?v=ocQldxF7fMY)
 
-Once you've commented on an issue or pull request, you'll start receiving email notifications when there's activity in the thread.  
+Wenn du in eine Issue oder Pull Request kommentiert hast, erhältst du E-Mail Benachrichtigungen, wenn es Aktivität in der Faden ist.
 
-### How to silence or unmute specific conversations
+### Bestimmte Issues und Pull requests ausschalten oder stummen
 
-1. Go to the issue or pull request
-2. Under _"Notifications"_, click the **Unsubscribe** button on the right to silence notifications or **Subscribe** to unmute them
+1. Gehe zum Issue oder Pull Request
+2. Klicke unter _”Notifications”_ rechts auf die Schaltfläche **Unsubscribe**, um Benachrichtigungen auszuschalten, oder **Subscribe** um die Stummschaltung aufzuheben
 
-You'll see a short description that explains your current notification status.
+Du siehst eine kurze Beschreibung über deine zeitliche Benachrichtigungen-Status.
 
-### How to customize notifications in Settings
+### Anpasse Benachrichtigungen in den Einstellungen
 
-1. Click your profile icon
-2. Click **Settings**
-3. Click **Notifications** from the menu on the left and [adjust your notification preferences](https://help.github.com/articles/managing-notification-delivery-methods/)
+1. Klicke auf dein Profil-Icon
+2. Klicke **Settings**
+3. Klicke **Notifications** von dem Menü an der linken Seite und [stelle deine Benachrichtigungenpräferenz ein](https://help.github.com/articles/managing-notification-delivery-methods/)
 
-### Repository notification options
+### Repository Benachrichtigung Optionen
 
-* **Watch**: You'll receive a notification when a new issue, pull request or comment is posted, and when an issue is closed or a pull request is merged  
-* **Not watching**: You'll no longer receive notifications unless you're @-mentioned
-* **Ignore**: You'll no longer receive any notifications from the repository
+* **Watch**: Du erhältst einen Benachrichtigung, wenn ein neues Issue, Pull Request oder Kommentar gebucht ist und wenn ein Issue geschlossen oder ein Pull Request zusammengeführt ist. 
+* **Not watching**: Du bekommst kein Benachrichtigung mehr, statt du `@-Erwähnungen` wirst * **Ignore**: Du bekommst kein Benachrichtigung mehr von dieses Repository
 
-### How to review notifications for the repositories you're watching
+### Überprüfe die Benachrichtigungen für die Repositories, die du gerade ansiehst
 
-1. Click your profile icon
-2. Click **Settings**
-3. Click **Notification** from the menu on the left
-4. Click on the [things you’re watching](https://github.com/watching) link
-5. Select the **Watching** tab
-6. Click the **Unwatch** button to disable notifications, or **Watch** to enable them
-
+1. Klicke dein Profil-Symbol
+2. Klicke **Settings**
+3. Klicke **Notification** von der linken Menü
+4. Klicke an die [Dinge, dass du anschaust](https://github.com/watching) Link
+5. Wähle die **Watching** Karte
+6. Klicke die Schaltfläche **Unwatch**, um Benachrichtigungen zu deaktivieren, oder auf **Watch**, um sie zu aktivieren
+ 
 <hr>
 </details>
 
 <hr>
-<h3 align="center">Keep reading below to find your first task</h3>
+<h3 align="center">Lese weiter unten, deine nächste Aufgabe zu finden</h3>
