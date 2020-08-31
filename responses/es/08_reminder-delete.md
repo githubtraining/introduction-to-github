@@ -18,13 +18,13 @@ Antes de decir adiós, aquí te mostramos un resumen de todas las tareas que com
 - Habilitaste GitHub Pages
 - ¡Hiciste tu primera contribución! :tada:  
 
-## ¿Qué sigue?
+## ¿Y ahora qué?
 
-Esperamos que este curso te haya ayudado a sentirte más a gusto usando GitHub. Recuerda: Siempre eres bienvenido(a) a repetir los temas del curso si necesitas más práctica. Si estás listo para aprender más, aquí te presentamos algunas ideas.
+Esperamos que este curso te haya ayudado a sentirte más a gusto usando GitHub. Recuerda: siempre eres bienvenido/a a repetir los temas del curso si necesitas más práctica. Si estás deseando aprender más, aquí te presentamos algunas ideas.
 
-### Contribuye an un proyecto
+### Contribuye a un proyecto
 
-Para encontrar proyectos en los que puedes contribuir por medio de temas actuales y colecciones comisariadas, revisa [GitHub Explore](https://github.com/explore).
+Para encontrar proyectos en los que puedes contribuir por medio de temas actuales y colecciones seleccionadas, revisa [GitHub Explore](https://github.com/explore).
 
 ### Sigue aprendiendo
 
