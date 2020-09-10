@@ -16,7 +16,7 @@ En el primer campo, escribe un mensaje de confirmación (o _commit message_). El
 
 - No termines tu mensaje con un punto. 
 - Mantén tu mensaje con 50 o menos caracteres. Si es necesario añade detalles extra en la ventana de descripción extendida. Esta se encuentra justo debajo de la línea de asunto. 
-- Usa la voz activa. Por ejemplo, "añade" en vez de "añadí" y "une" en vez de "uní".
+- Usa la voz activa. Por ejemplo, "Añade la funcionalidad xx" en vez de "Añadida la funcionalidad xx" y "Combina los cambios" en lugar de "Combinados los cambios".
 - Piensa en tu confirmación de cambios como una manera de expresar que quieres introducir una modificación. 
 
 <hr>
