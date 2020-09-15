@@ -1,14 +1,14 @@
-## Schritt 3: Close an issue
+## Schritt 3: Schließen eines Issues
 
-You turned on GitHub Pages!
+Du hast GitHub Pages aktiviert. 
 
-Your site is now visible to the public. Check it out at {{ store.pagesUrl }}.
+Deine Seite ist jetzt öffentlich sichtbar. Schau es dir auf {{ store.pagesUrl }} an.
 
-Now that you’ve completed the tasks in this issue, it's time to close it! Closing an issue tells other contributors that this particular conversation or task has come to an end.
+Nachdem du die Aufgaben in diesem Issue abgeschlossen hast, ist es Zeit, es zu schließen. Das Schließen eines Issues teilt anderen Mitwirkenden mit, dass diese bestimmte Konversation oder Aufgabe beendet wurde.
 
-### :keyboard: Activity
+### :keyboard: Aufgabe
 
-1. Click the **Close issue** button below
+1. Klicke unten auf **Close issue**
 
 <hr>
-<h3 align="center">I'll respond when you've closed this issue.</h3>
+<h3 align="center">Ich antworte, wenn du dieses Issue geschlossen hast.</h3>
