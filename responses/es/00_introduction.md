@@ -2,7 +2,7 @@
 
 Para empezar, te guiaré a través de unos primeros pasos que son importantes para programar y colaborar en GitHub. 
 
-:point_down: _Esta flecha indica que puedes expandir la ventana! Haz click en ellas durante el curso para más información._
+:point_down: _Esta flecha indica que puedes expandir la ventana! Haz clic en ellas durante el curso para más información._
 <details><summary>¿Qué es GitHub?</summary>
 <hr>
   
@@ -35,10 +35,10 @@ La gente usa GitHub para construir varias de las tecnologías más avanzadas del
 
 ### Más características
 
-El video cubre algunas de las características usadas con mayor frequencia. Aquí hay otras cosas que puedes encontrar en los repositorios de GitHub:
+El video cubre algunas de las características usadas con mayor frecuencia. Aquí hay otras cosas que puedes encontrar en los repositorios de GitHub:
 
 - Tableros para el proyecto: Crear un tablero estilo Kanban para seguir tus tareas dentro de GitHub 
-- Wiki: Crea y guarda documetación relevante acerca de tu proyecto. 
+- Wiki: Crea y guarda documentación relevante acerca de tu proyecto. 
 - Estadísticas: Ve un menú desplegable que contiene enlaces a herramientas de análisis para tu repositorio, que incluyen:
   - Pulso: Encuentra información sobre el trabajo que ha sido completado y el trabajo que está en progreso en este panel del proyecto.
   - Gráficas: Las gráficas proporcionan una vista más granular de la actividad del repositorio, incluyendo quién contribuyó al repositorio, quién lo bifurcó y cuándo completaron el trabajo.
@@ -48,15 +48,15 @@ El video cubre algunas de las características usadas con mayor frequencia. Aqu�
 En el video aprendiste sobre un archivo especial llamado README.md. Aquí hay una lista de algunos otros archivos especiales que puedes añadir a tus repositorios:
 
 - CONTRIBUTING.md: El archivo `CONTRIBUTING.md` es usado para describir el proceso para contribuir al repositorio. Un link al archivo `CONTRIBUTING.md` es mostrado cada vez que alguien crea una nueva propuesta o una solicitud de extracción. 
-- ISSUE_TEMPLATE.md: El archivo `ISSUE_TEMPLATE.md` lo puedes usar para prellenar el cuerpo de una propuesta. Por ejemplo, si siempres necesitas el mismo tipo de información para reportar errores puedes incluirlo en la plantilla de tu propuesta y cada nueva propuesta será abierta con el texto que has recomendado para empezar.  
+- ISSUE_TEMPLATE.md: El archivo `ISSUE_TEMPLATE.md` lo puedes usar para rellenar el cuerpo de una propuesta. Por ejemplo, si siempre necesitas el mismo tipo de información para reportar errores puedes incluirlo en la plantilla de tu propuesta y cada nueva propuesta será abierta con el texto que has recomendado para empezar.  
 
 <hr>
 </details>
 
-### Usando las propuestas
-Esto es una propuesta <sup>[:book:](https://help.github.com/articles/github-glossary/#issue)</sup>: un lugar en el que puedes tener conversaciones sobre los errores en tu código, revisiones de código y casi cualquier otra cosas que te puedas imaginar. 
+### Usando las propuestas (o _issues_)
+Esto es una propuesta (o _issue_) <sup>[:book:](https://help.github.com/articles/github-glossary/#issue)</sup>: un lugar en el que puedes tener conversaciones sobre los errores en tu código, revisiones de código y casi cualquier otra cosas que te puedas imaginar. 
 
-Los títulos de tus propuestas son como la línea de sujeto de un email. Avisan de un vistazo a tus colaboradores de que trata tu propuesta. Por ejemplo, el título de esta propuesta es Getting Started with GitHub.
+Los títulos de tus propuestas son como la línea de asunto de un email. Avisan de un vistazo a tus colaboradores de qué trata tu propuesta. Por ejemplo, el título de esta propuesta es Getting Started with GitHub.
 
 <details><summary>Usando GitHub Issues (propuestas)</summary>
 
@@ -64,10 +64,10 @@ Los títulos de tus propuestas son como la línea de sujeto de un email. Avisan 
 
 Las propuestas se usan para discutir ideas, mejoras, tareas y errores. Facilitan la colaboración al:
 
-- Proveer a todos (incluso miembros futuros) con la historia completa en un solo lugar
-- Permitirte entrelazar tu propuesta con otras propuestas o una solicitud de extracción <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>
+- Proveer a todos (incluso miembros futuros) la historia completa en un solo lugar
+- Permitirte entrelazar tu propuesta con otras propuestas o una solicitud de extracción (o _pull request_) <sup>[:book:](https://help.github.com/articles/github-glossary/#pull-request)</sup>
 - Crear un registro único y completo de cómo y por qué tomaste ciertas decisiones
-- Permitirte atraer fácilmente a las personas y los equipos adecuados a una conversación con @mención
+- Permitirte atraer fácilmente a las personas y los equipos adecuados a una conversación con @mencion
 :tv: [Video: Usando propuestas](https://www.youtube.com/watch?v=Zhj46r5D0nQ)
 
 <hr>
@@ -85,15 +85,15 @@ Una vez que hayas comentado en una propuesta o solicitud de extracción, empezar
 ## Cómo silenciar o dejar de silenciar conversaciones en específico. 
 
 1. Ve a la propuesta o solicitud de extracción
-2. Bajo _"Notifications"_, haz click en el botón de **Unsubscribe** a la derecha para silenciar notificaciones o **Subscribe** para dejar de silenciarlas. 
+2. Bajo _"Notifications"_, haz clic en el botón de **Unsubscribe** a la derecha para silenciar notificaciones o **Subscribe** para dejar de silenciarlas. 
 
 Verás una descripción corta que explica tu estado actual de notificaciones.
 
 ### Cómo personalizar notificaciones en Settings
 
-1. Haz click en el ícono de tu perfil
-2. Haz click en **Settings**
-3. Haz click en **Notifications** desde el menú a tu izquierda y [ajusta tus preferencias de notificaciones](https://help.github.com/articles/managing-notification-delivery-methods/)
+1. Haz clic en el icono de tu perfil
+2. Haz clic en **Settings**
+3. Haz clic en **Notifications** desde el menú a tu izquierda y [ajusta tus preferencias de notificaciones](https://help.github.com/articles/managing-notification-delivery-methods/)
 
 ### Opciones de notificación de un repositorio
 
@@ -103,12 +103,12 @@ Verás una descripción corta que explica tu estado actual de notificaciones.
 
 ## Cómo revisar las notificaciones de los repositorios que estás observando
 
-1. Haz click en tu ícono de perfil
-2. Haz click en **Settings**
-3. Haz click en **Notification** desde el menú a tu izquierda
-4. Haz click en el link de [repositorios que estás observando](https://github.com/watching)
+1. Haz clic en tu icono de perfil
+2. Haz clic en **Settings**
+3. Haz clic en **Notification** desde el menú a tu izquierda
+4. Haz clic en el link de [repositorios que estás observando](https://github.com/watching)
 5. Selecciona la pestaña **Watching**
-6. Haz click en el botón de  **Unwatch** para inhabilitar las notificaciones o en **Watch** para habilitarlas. 
+6. Haz clic en el botón de  **Unwatch** para inhabilitar las notificaciones o en **Watch** para habilitarlas. 
 
 <hr>
 </details>
