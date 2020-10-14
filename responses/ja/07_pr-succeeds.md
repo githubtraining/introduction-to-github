@@ -7,9 +7,9 @@
 ### :keyboard: やってみよう：プルリクエストのマージ
 
 {% if preferences.gitTool == 'cli' %}
-1. `master`ブランチをチェックアウトする：
+1. `main`ブランチをチェックアウトする：
     ```shell
-    git checkout master
+    git checkout main
     ```
 2. ブランチをマージする：
     ```shell
