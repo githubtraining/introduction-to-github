@@ -1,38 +1,39 @@
-## Step 5: Commit a file
+## Step 5: Criando um commit de um arquivo
 
-:tada: You created a branch!
+:tada: Você criou uma branch!
 
-Creating a branch allows you to make modifications to your project without changing the deployed `master` branch. Now that you have a branch, it’s time to create a file and make your first commit!
+Quando criamos uma branch, a mesma permite a gente de fazer modificações no projeto, sem alterar a branch `master`. Agora que você já tem uma branch, é hora de criarmos um arquivo e fazer o seu primeiro commit!
+
 
 <details><summary>Commits 101</summary>
 
 ## Commits 101
 
-When you’re finished creating or making changes to a file on GitHub, scroll to the bottom of the page. Then find the "Commit new file" section.
+Quando você terminar de criar ou fazer mudanças em um arquivo no Github, vá até o final da página e encontre a seção "Commit new file".
 
-In the first field, type a commit message. The commit message should briefly tell contributors about the changes you are introducing to the file.
+No primeiro campo, digite uma mensagem para o seu commit. Essa mensagem deve descrever resumidamente para os colaboradores sobre as mudanças que você fez no arquivo.
 
 ### Rules to live by for commit messages:
 
-- Don’t end your commit message with a period.
-- Keep your commit messages to 50 characters or less. Add extra detail in the extended description window if necessary. This is located just below the subject line.
-- Use active voice. For example, "add" instead of "added" and "merge" instead of "merged".
-- Think of your commit as expressing intent to introduce a change.
+- Não termine o seu commit com um ponto final.
+- Mantenha o seu commit com 50 caracteres ou menos. Se necessário adicionar um conteúdo extra, você pode usar a janela de "extend description". A mesma está localizada abaixo da linha do título.
+- Use voz ativa. Por exemplo, "add" ao invés de "adicionado" e "merge" ao invés de "merged".
+- Pense no seu commit como uma intenção de apresentar uma mudança.
 
 <hr>
 </details>
 
-### :keyboard: Activity: Your first commit
+### :keyboard: Atividade: Seu primeiro commit
 
-The following steps will guide you through the process of committing a change on GitHub.
+Os passos a seguir irão te guiar no processo para fazer um commit de uma alteração de um arquivo, no Github.
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to your branch:
+1. Verifique em qual branch você está:
       ```shell
       git checkout {{ thePayload.ref }}
       ```
-1. Create a new file named `_posts/0000-01-02-{{ user.username }}.md`.
-1. Add the following content to your file:
+2. Crie um arquivo chamado `_posts/0000-01-02-{{ user.username }}.md`.
+3. Adicione o conteúdo abaixo no arquivo criado:
       ```yaml 
       ---
       layout: slide
@@ -41,22 +42,22 @@ The following steps will guide you through the process of committing a change on
       Your text
       Use the left arrow to go back!
       ```
-1. Stage your new file:
+4. Adicione o arquivo para ser rastreado pelo Github:
       ```shell
       git add _posts/0000-01-02-{{ user.username }}.md
       ```
-1. After adding the text, commit the change while providing a commit message. For guidelines on commit messages, check out the **Commits 101** drop-down, just above these instructions:
+5. Depois de adicionar o arquivo, faça o commit do mesmo, lembrando de resumir em uma mensagem as alterações feitas no arquivo. Se tiver dúvidas de como proceder com a mensagem, dê uma olhada no título **Commits 101**, localizado acima destas instruções:
       ```shell
-      git commit -m "<YOUR-MESSAGE>"
+      git commit -m "<SUA-MENSAGEM-AQUI>"
       ```
-1. Push your new commit to GitHub:
+6. Envie o seu commit para o GitHub:
       ```shell
       git push
       ```
 
 {% elsif preferences.gitTool == 'vscode' %}
-1. In the `_posts` folder, create a new file named `0000-01-02-{{ user.username }}.md`. The full path to your file will be: `_posts/0000-01-02-{{ user.username }}.md`.
-1. Add the following content to your file and save it:
+1. Na pasta `_posts`, crie um novo arquivo chamado `0000-01-02-{{ user.username }}.md`. O caminho completo para o seu arquivo será: `_posts/0000-01-02-{{ user.username }}.md`.
+2. Adicione o conteúdo abaixo no arquivo criado e salve-o:
       ```yaml 
       ---
       layout: slide
@@ -65,19 +66,19 @@ The following steps will guide you through the process of committing a change on
       Your text
       Use the left arrow to go back!
       ```
-1. To stage your new file: go to the Source Control view and click the **+** button next to the file. You can also follow along with [VS Code's official documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_commit).
+3. Adicione o novo arquivo para rastreio: vá até o Source Control e clique no botão **+** próximo ao arquivo. Caso queira você pode seguir a [documentação oficial do VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_commit).
       ![a screenshot of the staging button in the source control view](https://user-images.githubusercontent.com/16547949/53641057-d5b8d100-3bfb-11e9-9b69-53b0661cd5cd.png)
-1. Commit the change by typing a commit message in the text field and pressing <kbd>Ctrl+Enter</kbd> on Windows or <kbd>Command ⌘+Enter</kbd> on macOS.
+4. Faça o commit da mudança e adicione a mensagem no campo de texto, e pressione <kbd>Ctrl+Enter</kbd> no Windows ou <kbd>Command ⌘+Enter</kbd> no macOS.
       ![a screenshot of the commit message on VS Code](https://user-images.githubusercontent.com/16547949/53641276-698a9d00-3bfc-11e9-9b3d-01680fd01d7c.png)
-1. Click on the ellipsis (...) and select **Push**.
+5. Clique nos três pontos (...) e selecione **Push**.
 
 {% else %}
-1. Create a new file on this branch, in a `_posts` folder called `0000-01-02-{{ user.username }}.md`. You can do so using [this shortcut]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=_posts/0000-01-02-{{ user.username }}.md) or manually as follows:
-      - Return to the "Code" tab
-      - In the branch drop-down, select "{{ thePayload.ref }}"
-      - Click **Create new file**
-      - In the "file name" field, type `_posts/0000-01-02-{{ user.username }}.md`. Entering the `/` in the filename will automatically place your file in the `_posts` directory.
-1. When you’re done naming the file, add the following content to your file:
+1. Crie um novo arquivo nesta branch, dentro da pasta `_posts` chamado `0000-01-02-{{ user.username }}.md`. Você pode usar este [atalho]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=_posts/0000-01-02-{{ user.username }}.md) ou seguir os passos abaixo:
+      - Volte para a aba "Code"
+      - No menu drop-down branch, selecione "{{ thePayload.ref }}"
+      - Clique em **Create new file**
+      - No campo "file name", digite `_posts/0000-01-02-{{ user.username }}.md`. Inserindo `/` no nome do arquivo, irá automaticamente colocar o arquivo dentro do seu diretório `_posts`.
+2. Quando você terminar de nomear o arquivo, adicione o conteúdo dentro do mesmo:
       ```yaml
       ---
       layout: slide
@@ -86,8 +87,9 @@ The following steps will guide you through the process of committing a change on
       Your text
       Use the left arrow to go back!
       ```
-1. After adding the text, you can commit the change by entering a commit message in the text-entry field below the file edit view. For guidelines on commit messages, check out the **Commits 101** drop-down, just above these instructions
-1. When you’ve entered a commit message, click **Commit new file**
+3. Depois de adicionar o texto, você pode fazer o commit da mudança, escrevendo a mensagem no campo de texto, localizado abaixo do campo de editar arquivo. Se tiver dúvidas de como proceder com a mensagem, dê uma olhada no título **Commits 101**, localizado acima destas instruções:
+
+4. Quando terminar de escrever a mensagem no commit, clique em **Commit new file**
 {% endif %}
 <hr>
-<h3 align="center">I'll respond when I detect a new commit on this branch.</h3>
+<h3 align="center">Eu irei responder quando eu detectar um novo commit nesta branch.</h3>
