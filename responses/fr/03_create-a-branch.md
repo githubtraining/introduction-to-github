@@ -10,13 +10,13 @@ Réalisons la première étape d'une démarche typique sur GitHub : la création
 
 Vous venez d'apprendre à créer une branche, la première étape du travail sur GitHub.
 
-Les branches sont des éléments importants de la démarche sur GitHub car elles nous permettent d'isoler le travail en cours de la branche principale `main`. En d'autres termes, le travail des autres est protégé pendant que vous mettez au point votre contribution.
+Les branches sont des éléments importants de la démarche sur GitHub car elles nous permettent d'isoler le travail en cours de la branche principale `master`. En d'autres termes, le travail des autres est protégé pendant que vous mettez au point votre contribution.
 
 ### Conseils pour l'utilisation de branches
 
-Un projet seul peut avoir des centaines de branches, chacune comportant une nouvelle modification de la branche `main`.
+Un projet seul peut avoir des centaines de branches, chacune comportant une nouvelle modification de la branche `master`.
 
-La meilleure façon de gérer ces branches quand on travaille en équipe est de veiller à les maintenir concises et éphémères. Autrement dit, une branche doit comporter une seule nouvelle fonctionalité ou correction de bug. Les incompréhensions entre contributeurs sont réduites lorsque les branches ne sont actives que quelques jours avant d'être fusionnées <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> avec la branche `main`.
+La meilleure façon de gérer ces branches quand on travaille en équipe est de veiller à les maintenir concises et éphémères. Autrement dit, une branche doit comporter une seule nouvelle fonctionalité ou correction de bug. Les incompréhensions entre contributeurs sont réduites lorsque les branches ne sont actives que quelques jours avant d'être fusionnées <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> avec la branche `master`.
 
 <hr>
 </details>
@@ -52,17 +52,17 @@ La meilleure façon de gérer ces branches quand on travaille en équipe est de 
       {{ thePayload.repository.clone_url }}
       ```
 1. Sélectionnez l'emplacement où sauvegarder le dépôt et cliquez **Choose folder**. Ouvrez ensuite l'emplacement que vous avez sélectionné.
-1. Le répertoire du dépôt doit maintenant être ouvert dans votre espace de travail VS Code. Cliquez sur `main` en bas et à gauche de la fenêtre VS Code. Ceci ouvrira la palette avec les commandes relatives aux branches Git.
+1. Le répertoire du dépôt doit maintenant être ouvert dans votre espace de travail VS Code. Cliquez sur `master` en bas et à gauche de la fenêtre VS Code. Ceci ouvrira la palette avec les commandes relatives aux branches Git.
       ![a screenshot of the Git branches in VS Code](https://user-images.githubusercontent.com/16547949/53639606-adc76e80-3bf7-11e9-98ac-bd41ae2b40db.png)
 1. Cliquez sur **Create new branch** et saisissez le nom que vous désirez, par exemple `my-slide`. Pressez ensuite <kbd>Enter</kbd>.
-1. Lorsqu'il vous est demandé de sélectioner la référence à partir de laquelle créer la branche, sélectioner `main`.
+1. Lorsqu'il vous est demandé de sélectioner la référence à partir de laquelle créer la branche, sélectioner `master`.
 1. Allez dans la vue "Source Control", cliquez sur les points de suspension (...) et séléctionnez **Push**. Confirmez lorsque le boite de dialogue vous propose de publier la branche.
       ![a screenshot of the source control view in VS Code](https://user-images.githubusercontent.com/16547949/53640015-ee73b780-3bf8-11e9-8c90-be9022b9555a.png)
 
 {% else %}
 
 1. Naviguez vers [l'onglet Code]({{ thePayload.repository.html_url }})
-2. Cliquez **Branch: main** dans la liste déroulante
+2. Cliquez **Branch: master** dans la liste déroulante
 3. Dans le champs de texte, saisissez un nom de branche, tel que `my-slide`
 4. Cliquez **Create branch: <name>** ou pressez la touche <kbd>Enter</kbd> pour créer votre branche
 

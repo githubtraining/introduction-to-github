@@ -14,13 +14,13 @@ Pensemos de nuevo en el flujo de GitHub. Has creado una rama, agregaste un archi
 <hr>
 </details>
 
-Esta solicitud de extracción mantendrá los cambios que hiciste dentro de tu rama y propondrá aplicarlos a la rama `main`.
+Esta solicitud de extracción mantendrá los cambios que hiciste dentro de tu rama y propondrá aplicarlos a la rama `master`.
 
 ### :keyboard: Actividad: Crea una solicitud de extracción
 
 1. Abre una solicitud de extracción usando [este atajo]({{ url }}) o manualmente, así:
     - Desde la pestaña "Pull requests", haz clic en **New pull request**
-    - En la lista desplegable llamada "base:", asegúrate que la rama "main" esté seleccionada
+    - En la lista desplegable llamada "base:", asegúrate que la rama "master" esté seleccionada
     - En la lista desplegable llamada "compare:", selecciona "{{ branch | remove: 'refs/heads/' }}"
 1. Cuando hayas seleccionado tu rama, escribe un título para tu solicitud de extracción. Por ejemplo `Añadir el archivo de {{ user.username }}`
 1. El siguiente campo te ayuda a agregar una descripción de los cambios que has hecho. Agrega una descripción de los cambios que has hecho hasta ahora. Recordatorio: has creado una rama, creado un archivo e iniciado la confirmación de cambios correspondiente y por último has abierto una solicitud de extracción

@@ -14,13 +14,13 @@ Revenons au workflow de GitHub. Vous avez créé une branche, ajouté un fichier
 <hr>
 </details>
 
-Cette Pull Request va conserver les modifications que vous venez de faire sur votre branche tout en proposant de les appliquer également à la branche `main`.
+Cette Pull Request va conserver les modifications que vous venez de faire sur votre branche tout en proposant de les appliquer également à la branche `master`.
 
 ### :keyboard: Activité: Créer une Pull Request
 
 1. Ouvrez une Pull Request grâce à [ce raccourci]({{ url }}) ou manuellement comme suit :
     - Depuis l'onglet "Pull requests", cliquez **New pull request**
-    - Dans le menu déroulant "base:", assurez vous que la branche `main` est sélectionnée
+    - Dans le menu déroulant "base:", assurez vous que la branche `master` est sélectionnée
     - Dans le menu déroulant "compare:", sélectionnez "{{ branch | remove: 'refs/heads/' }}"
 1. Lorsque vous avez sélectionné votre branche, saisissez un titre pour votre Pull Request. Par exemple `Ajout du fichier de {{ user.username }}`
 1. Le champ suivant vous aide à fournir une description des modifications que vous avez apportées. N'hésitez pas à ajouter une description de ce que vous avez accompli jusqu'à présent. Pour rappel, vous avez: créé une branche, créé un fichier et effectué une contribution, et ouvert une Pull Request

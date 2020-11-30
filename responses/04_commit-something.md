@@ -2,7 +2,7 @@
 
 :tada: You created a branch!
 
-Creating a branch allows you to make modifications to your project without changing the deployed `main` branch. Now that you have a branch, it’s time to create a file and make your first commit!
+Creating a branch allows you to make modifications to your project without changing the deployed `master` branch. Now that you have a branch, it’s time to create a file and make your first commit!
 
 <details><summary>Commits 101</summary>
 

@@ -207,7 +207,7 @@ steps:
   - type: gate
     left: '%payload.pull_request.base.ref%'
     operator: ===
-    right: main
+    right: master
     else:
     - type: createReview
       body: 06_fix-base.md

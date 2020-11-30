@@ -7,9 +7,9 @@ Vous avez créé avec succès une Pull Request et elle a passé tous les tests a
 ### :keyboard: Activité: Fusionnez votre Pull Request
 
 {% if preferences.gitTool == 'cli' %}
-1. Récupérez votre branche `main` :
+1. Récupérez votre branche `master` :
     ```shell
-    git checkout main
+    git checkout master
     ```
 2. Fusionnez votre branche :
     ```shell

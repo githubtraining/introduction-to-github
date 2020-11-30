@@ -10,7 +10,7 @@ Maintenant, au boulot ! GitHub Pages vous permet de servir un site statique à p
 
 1. Cliquez sur l'onglet [**Settings**]({{ repoUrl }}/settings) de ce dépôt
 1. Défilez jusqu'à la section "GitHub Pages"
-1. Depuis le menu déroulant "Source", selectionnez **main branch**
+1. Depuis le menu déroulant "Source", selectionnez **master branch**
 
 > Note : même si vous voyez une option pour choisir un thème, n'appliquez pas de thème à ce stade. Nous avons protégé le code afin que vous ne puissiez pas apporter de modifications involontaires. Vous aurez la possibilité d'appliquer un thème une fois le cours terminé.
 

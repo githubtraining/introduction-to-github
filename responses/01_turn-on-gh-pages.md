@@ -10,7 +10,7 @@ Now, on to business! GitHub Pages allow you to serve a static site from a reposi
 
 1. Click on the [**Settings**]({{ repoUrl }}/settings) tab in this repository
 1. Scroll down to the "GitHub Pages" section
-1. From the "Source" drop down, select **main branch**
+1. From the "Source" drop down, select **master branch**
 
 > Note: Even though you'll see an option to choose a theme, do not apply a theme at this point. We've protected the code so you can't make unintended changes. You'll have the opportunity to apply a theme when the course is completed. 
 
