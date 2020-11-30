@@ -7,9 +7,9 @@ You successfully created a pull request, and it has passed all of the tests. You
 ### :keyboard: Activity: Merge the pull request
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to the `master` branch:
+1. Check out to the `main` branch:
     ```shell
-    git checkout master
+    git checkout main
     ```
 2. Merge your branch:
     ```shell

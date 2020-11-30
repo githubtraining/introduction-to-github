@@ -2,7 +2,7 @@
 
 :tada: ¡Haz creado una rama!
 
-Crear una rama te permite hacer modificaciones a tu proyecto sin tener que cambiar la rama `master`. Ahora que tienes una rama, es hora de crear un archivo y ¡hacer tu primera confirmación de cambios!
+Crear una rama te permite hacer modificaciones a tu proyecto sin tener que cambiar la rama `main`. Ahora que tienes una rama, es hora de crear un archivo y ¡hacer tu primera confirmación de cambios!
 
 <details><summary>Commits 101</summary>
 

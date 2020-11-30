@@ -7,9 +7,9 @@ Has creado una solicitud de extracción satisfactoriamente, y ha pasado todas la
 ### :keyboard: Actividad: Fusiona tu solicitud de extracción
 
 {% if preferences.gitTool == 'cli' %}
-1. Usa el checkout para cambiarte a la rama `master`:
+1. Usa el checkout para cambiarte a la rama `main`:
     ```shell
-    git checkout master
+    git checkout main
     ```
 2. Fusiona tu rama:
     ```shell

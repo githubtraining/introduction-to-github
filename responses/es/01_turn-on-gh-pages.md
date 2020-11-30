@@ -10,7 +10,7 @@
 
 1. Haz clic en la pestaña [**Settings**]({{ repoUrl }}/settings) de este repositorio
 1. Navega a la sección de GitHub Pages
-1. En la lista llamada "Source" selecciona **master branch**
+1. En la lista llamada "Source" selecciona **main branch**
 
 > Nota: Aunque puedes ver una opción para escoger un tema, no apliques ningún tema en este momento. Hemos protegido el código para que no puedas hacer cambios involuntarios. Tendrás oportunidad de usar un tema cuando terminemos el curso.
 
