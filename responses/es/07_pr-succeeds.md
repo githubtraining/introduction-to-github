@@ -7,9 +7,9 @@ Has creado una solicitud de extracción satisfactoriamente, y ha pasado todas la
 ### :keyboard: Actividad: Fusiona tu solicitud de extracción
 
 {% if preferences.gitTool == 'cli' %}
-1. Usa el checkout para cambiarte a la rama `master`:
+1. Usa el checkout para cambiarte a la rama `main`:
     ```shell
-    git checkout master
+    git checkout main
     ```
 2. Fusiona tu rama:
     ```shell
@@ -24,10 +24,10 @@ Has creado una solicitud de extracción satisfactoriamente, y ha pasado todas la
     git branch -d {{ branch }}
     ```
 {% else %}
-1. Haz click en **Merge pull request**
-1. Haz click en **Confirm merge**
+1. Haz clic en **Merge pull request**
+1. Haz clic en **Confirm merge**
 {% endif %}
-1. Cuando tu rama se haya fusionado, ya no la vas a necesitar. Haz click en **Delete branch**.
+1. Cuando tu rama se haya fusionado, ya no la vas a necesitar. Haz clic en **Delete branch**.
 
 <hr>
 <h3 align="center">Responderé cuando esta solicitud de extracción se haya fusionado.</h3>

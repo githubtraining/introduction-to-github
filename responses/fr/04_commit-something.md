@@ -2,7 +2,7 @@
 
 :tada: Vous avez créé une branche!
 
-Créer une branche vous permet d'apporter des modifications à votre projet sans changer `master`, la branche déployée. Maintenant que vous avez une branche, il est temps de créer un fichier et d'effectuer votre première contribution!
+Créer une branche vous permet d'apporter des modifications à votre projet sans changer `main`, la branche déployée. Maintenant que vous avez une branche, il est temps de créer un fichier et d'effectuer votre première contribution!
 
 <details><summary>Bases de la contribution</summary>
 

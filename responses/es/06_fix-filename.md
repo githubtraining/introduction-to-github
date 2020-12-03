@@ -1,6 +1,6 @@
 Esperaba que tu archivo se llamara **{{ expected }}**.
 
-Editemos esta solicitud de extracción para arreglar ambos issues.
+Editemos esta solicitud de extracción para arreglar ambos problemas.
 
 ## :keyboard: Actividad: Arregla tu solicitud de extracción
 
@@ -17,23 +17,23 @@ Editemos esta solicitud de extracción para arreglar ambos issues.
 1. Si encuentras que tienes que hacer cambios, entonces añade, confirma tus cambios, y sube esos cambios:
     ```shell
     git add .
-    git commit -m "<YOUR-MESSAGE>"
+    git commit -m "<TU-MENSAJE>"
     git push
     ```
 {% else %}
-1. Haz click en la pestaña [Files Changed]({{ url }}) en esta solicitud de extracción
+1. Haz clic en la pestaña [Files Changed]({{ url }}) en esta solicitud de extracción
 1. Verifica que sólo el archivo que editaste se llame `{{ expected }}`.
-1. Si el archivo tiene el nombre incorrecto, o no esta en el lugar incorrecto, haz click en el ícono de lápiz que se encuentra al lado derecho de la pantalla para editar.
+1. Si el archivo tiene el nombre incorrecto, o no esta en el lugar correcto, haz clic en el icono de lápiz que se encuentra al lado derecho de la pantalla para editar.
 1. Arriba del contenido del archivo, selecciona "all text" en el campo que contiene el nombre del archivo y bórralo.
 1. Continúa presionando la tecla backspace para también borrar cualquier directorio que exista.
 1. Escribe el nombre de archivo apropiado:
     ```shell
     {{ expected }}
     ```
-1. Desplázate hasta el fondo de la página y escribe un mensaje de confirmación y haz una confirmación de cambios en la sección **Commit Changes** .
+1. Desplázate hasta el final de la página y escribe un mensaje de confirmación y haz una confirmación de cambios en la sección **Commit Changes** .
 {% endif %}
 
-Si necesitas ayuda buscando solución a tu problema, crea una publicación en [GitHub Community]({{ communityBoard }}) . También puedes buscar otras publicaciones acerca de tu issue si otras personas lo han resuelto previamente.
+Si necesitas ayuda buscando solución a tu problema, crea una publicación en [GitHub Community]({{ communityBoard }}). También puedes buscar otras publicaciones acerca de tu issue si otras personas lo han resuelto previamente.
 
 <hr>
 <h3 align="center">Responderé abajo cuando detecte una confirmación de cambios en esta rama.</h3>

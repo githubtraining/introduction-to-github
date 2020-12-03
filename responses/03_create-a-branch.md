@@ -10,13 +10,13 @@ Let’s complete the first step of the GitHub flow: creating a branch <sup>[:boo
 
 You just learned how to create a branch—the first step in the GitHub flow.
 
-Branches are an important part of the GitHub flow because they allow us to separate our work from the `master` branch. In other words, everyone's work is safe while you contribute.
+Branches are an important part of the GitHub flow because they allow us to separate our work from the `main` branch. In other words, everyone's work is safe while you contribute.
 
 ### Tips for using branches
 
-A single project can have hundreds of branches, each suggesting a new change to the `master` branch.
+A single project can have hundreds of branches, each suggesting a new change to the `main` branch.
 
-The best way to keep branches organized with a team is to keep them concise and short-lived. In other words, a single branch should represent a single new feature or bug fix. This reduces confusion among contributors when branches are only active for a few days before they’re merged <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> into the `master` branch.
+The best way to keep branches organized with a team is to keep them concise and short-lived. In other words, a single branch should represent a single new feature or bug fix. This reduces confusion among contributors when branches are only active for a few days before they’re merged <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> into the `main` branch.
 
 <hr>
 </details>
@@ -52,17 +52,17 @@ The best way to keep branches organized with a team is to keep them concise and 
       {{ thePayload.repository.clone_url }}
       ```
 1. Select the location in which to save the repository and click **Choose folder**. Then, open the location you selected.
-1. The repository folder should now be open in your VS Code project. Click on `master` at the bottom left of the VS Code window. This will bring up the Command Palette with the commands related to Git branches.
+1. The repository folder should now be open in your VS Code project. Click on `main` at the bottom left of the VS Code window. This will bring up the Command Palette with the commands related to Git branches.
       ![a screenshot of the Git branches in VS Code](https://user-images.githubusercontent.com/16547949/53639606-adc76e80-3bf7-11e9-98ac-bd41ae2b40db.png)
 1. Click **Create new branch** and enter any branch name you'd like, such as `my-slide`. Then press <kbd>Enter</kbd>.
-1. When asked to select the ref to create the branch from, select `master`.
+1. When asked to select the ref to create the branch from, select `main`.
 1. Go to the Source Control view, click on the ellipsis (...) and select **Push**. Confirm the dialog box asking you to publish the branch.
       ![a screenshot of the source control view in VS Code](https://user-images.githubusercontent.com/16547949/53640015-ee73b780-3bf8-11e9-8c90-be9022b9555a.png)
 
 {% else %}
 
 1. Navigate to the [Code tab]({{ thePayload.repository.html_url }})
-2. Click **Branch: master** in the drop-down
+2. Click **Branch: main** in the drop-down
 3. In the field, enter a name for your branch, like `my-slide`
 4. Click **Create branch: <name>** or press the <kbd>Enter</kbd> key to create your branch
 

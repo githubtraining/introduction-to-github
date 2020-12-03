@@ -2,8 +2,8 @@
 
 Oooops! Parece que has cerrado tu solicitud de extracción accidentalmente.
 
-1. Haz click en **Reopen pull request**. Si este botón esta inactivo, primero tendrás que hacer click en **Restore branch** .
-1. Fusiona tu pull request.
+1. Haz clic en **Reopen pull request**. Si este botón esta inactivo, primero tendrás que hacer clic en **Restore branch**.
+1. Fusiona tu solicitud de extracción.
 
 <hr>
 <h3 align="center">Responderé cuando esta solicitud de extracción haya sido fusionada.</h3>
