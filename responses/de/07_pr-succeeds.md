@@ -1,33 +1,33 @@
-## Schritt 8: Merge your pull request
+## Schritt 8: Merge deine Pull Request
 
-Nicely done @{{ user.username }}! :sparkles:
+Gut gemacht @{{ user.username }}! :sparkles:
 
-You successfully created a pull request, and it has passed all of the tests. You can now merge your pull request.
+Du hast erfolgreich eine Pull Request erstellt und alle Tests bestanden. Du kannst jetzt deine Pull Request mergen.
 
-### :keyboard: Activity: Merge the pull request
+### :keyboard: Activität: Merge die Pull Request
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to the `master` branch:
+1. Auschecken zu dem `main` branch:
     ```shell
-    git checkout master
+    git checkout main
     ```
-2. Merge your branch:
+2. Merge deine Branch:
     ```shell
     git merge {{ branch }}
     ```
-3. Push the merged history to GitHub:
+3. Übertrage den merged Verlauf an GitHub:
     ```shell
     git push
     ```
-4. Delete your the branch locally:
+4. Lösche den Branch lokal:
     ```shell
     git branch -d {{ branch }}
     ```
 {% else %}
-1. Click **Merge pull request**
-1. Click **Confirm merge**
+1. Klike **Merge pull request**
+1. Klike **Confirm merge**
 {% endif %}
-1. Once your branch has been merged, you don't need it anymore. Click **Delete branch**.
+1. Sobald der Branch merged wurde, brauche man ihn nicht mehr. Klicke auf **Delete branch**.
 
 <hr>
-<h3 align="center">I'll respond when this pull request is merged.</h3>
+<h3 align="center">Ich antworte wenn diese Branch merged ist.</h3>

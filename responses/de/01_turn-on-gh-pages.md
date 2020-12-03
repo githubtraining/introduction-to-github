@@ -10,7 +10,7 @@ Jetzt, zur Sache! GitHub Pages erlaubt einem eine statische Seite von einem Repo
 
 1. Klicke auf die [**Settings**]({{ repoUrl }}/settings) Kategorie in diesem Repository
 1. Scrolle bis zu der "GitHub Pages" Sektion
-1. Wähle **master branch** von dem “Source” Menü
+2. Wähle **main branch** von dem “Source” Menü
 
 > Achtung: Auch wenn du eine Option zum Auswählen eines Themas siehst, wende an dieser Stelle kein Thema an. Wir haben den Code geschützt, damit du keine unbeabsichtigten Änderungen vornehmen kannst. Wenn du diesen Kurse komplett beendet hast, wirst du die Gelegenheit haben, ein Thema anzuwenden.
 

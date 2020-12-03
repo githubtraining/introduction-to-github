@@ -1,46 +1,46 @@
-## Schritt 7: Respond to a review
+## Schritt 7: Antwortung eine Bewertung
 
-Your pull request is looking great!
+Deine Pull Request sieht toll aus!
 
-Let’s add some content to your file. Replace line 5 of your file with a quotation or meme and witty caption. Remember: [Markdown](https://guides.github.com/features/mastering-markdown/) is supported.
+Fügen wir der Datei Inhalte hinzu. Ersetze Zeile 5 der Datei durch ein Zitat oder ein Mem und eine witzige Beschriftung. Denke daran: [Markdown](https://guides.github.com/features/mastering-markdown/) wird unterstützt.
 
-### :keyboard: Activity: Change your file
+### :keyboard: Activität: Ändere die Datei
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to your branch:
+1. Auschecken zu dein Branch:
     ```shell
     git checkout {{ branch }}
     ```
-1. Open the file `_posts/0000-01-02-{{ user.username }}.md`.
-1. Replace line 5 of the file with something new. 
-1. Stage your new changes:
+1. Öffne die Datei `_posts/0000-01-02-{{ user.username }}.md`.
+1. Ersetze Zeile 5 der Datei durch etwas Neues.
+1. Stelle die neuen Änderungen bereit:
     ```shell
     git add _posts/0000-01-02-{{ user.username }}.md
     ```
-1. Commit your changes:
+1. Commit deine Änderungen:
     ```shell
     git commit -m "<YOUR-MESSAGE>"
     ```
-1. Push your edits to GitHub:
+1. Übertrage die Änderungen auf GitHub:
     ```shell
     git push
     ```
 
 {% elsif preferences.gitTool == 'vscode' %}
-1. Open the file `_posts/0000-01-02-{{ user.username }}.md`.
-1. Replace line 5 of the file with something new. 
-1. Stage your new changes. As a reminder, you can do this in the Source Control view, click the **+** symbol next to the file.
-1. Commit your changes. You can do this in the Source Control view, enter a commit message in the text field and press <kbd>Ctrl+Enter</kbd> on Windows or <kbd>Command ⌘+Enter</kbd> on macOS.
-1. Push your edits to GitHub. In the Source Control view, click on the ellipsis (...), and select **Push**.
+1. Öffne die Datei `_posts/0000-01-02-{{ user.username }}.md`.
+1. Ersetze Zeile 5 der Datei durch etwas Neues.
+1. Stelle die neuen Änderungen bereit. Zur Erinnerung, du könntest dies in der Quellcodeverwaltung Ansicht tun, indem du auf das Symbol **+** neben der Datei klicken.
+1. Commit deine Änderungen. Man kann dies in der Ansicht Quellcodeverwaltung tun, eine Commit-Mitteilung richt in das Textfeld eingeben und <kbd>Ctrl+Enter</kbd> auf Windows oder <kbd>Command ⌘+Enter</kbd> auf macOS drücken.
+1. Klicke auf die Auslassungspunkte (...) and wähle **Push** aus.
 
 {% else %}
-1. Click the [Files Changed tab]({{ url }}) in this pull request
-1. Edit your newly added file
-1. Replace line 5 with something new
-1. Scroll to the bottom and click **Commit Changes**
+1. Klicke die [Files Changed Tab]({{ url }}) in dieser Pull Request
+1. Bearbeite die neu hinzugefügte Datei
+1. Ersetze Zeile 5 durch etwas Neues
+1. Scrolle nach unten und klicke auf **Commit Changes**
 {% endif %}
 
-**Note** : Can't find the button to edit the file? It may look like a pencil, or it may look like three dots.
+**Hinweis**: Du kannst die Schaltfläche zum Bearbeiten der Datei nicht finden? Es kann wie ein Bleistift aussehen, oder es kann wie erei Punkte aussehen.
 
 <hr>
-<h3 align="center">I'll respond when I detect a commit on this branch.</h3>
+<h3 align="center">Ich antworte, wenn ich erkenne, dass ein neuer Commit in diesem Branch erstellt wurde.</h3>

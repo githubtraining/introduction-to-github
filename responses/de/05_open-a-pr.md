@@ -1,30 +1,31 @@
-## Schritt 6: Open a pull request
+## Schritt 6: Ein Pull Request erstellen
 
-Nice work making that commit :sparkles:
+Gute Arbeit, die dieses Commit macht :sparkles:
 
-Now that you’ve created a commit, it’s time to share your proposed change through a pull request! Where issues encourage discussion with other contributors and collaborators on a project, pull requests help you share your changes, receive feedback on them, and iterate on them until they’re perfect!
+Nachdem du ein Commit erstellt habe, ist es an der Zeit, deine vorgeschlagene Änderung über eine Pull-Anfrage zu teilen. Wenn Issues die Diskussion mit anderen Mitwirkenden und Mitarbeitern eines Projekts anregen, könntest du mithilfe von Pull-Anfragen deine Änderungen teilen, Feedback zu deinen erhalten und sie wiederholen, bis sie perfekt sind.
 
-<details><summary>What is a pull request?</summary>
+<details><summary>Was ist ein Pull Request?</summary>
 
-## Pull requests
+## Pull Requests
 
-Let’s think back to the GitHub flow again. You have created a branch, added a file, and committed the file to your branch. Now it’s time to collaborate on your file with other students taking this class. This collaboration happens in a pull request. Check out this video to learn more:
+Denken wir noch einmal an den GitHub Flow zurück. Du hast eine Branch erstellt, eine Datei hinzugefügt und die Datei in deinen Branch committed. Jetzt ist der Zeit um zusammenzuarbeiten. Diese Zusammenarbeit erfolgt in einer Pull Request. Sehe diese Video für mehr Information:
 
-:tv: [Video: Introduction to pull requests](https://youtu.be/kJr-PIfLDl4)
+:tv: [Video: (En) Introduction to pull requests](https://youtu.be/kJr-PIfLDl4)
 <hr>
 </details>
 
-This pull request is going to keep the changes you just made on your branch and propose applying them to the `master` branch.
+Diese Pull Request behält die Änderungen bei, die du gerade in deinem Branch vorgenommen habe, und schlägt vor, sie auf den Haupt-Branch anzuwenden.
 
-### :keyboard: Activity: Create a pull request
+### :keyboard: Activität: Erstellung eines Pull Requests
 
-1. Open a pull request using [this shortcut]({{ url }}) or manually as follows:
-    - From the "Pull requests" tab, click **New pull request**
-    - In the "base:" drop-down menu, make sure the "master" branch is selected
-    - In the "compare:" drop-down menu, select "{{ branch | remove: 'refs/heads/' }}"
-1. When you’ve selected your branch, enter a title for your pull request. For example `Add {{ user.username }}'s file`
-1. The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
-1. Click **Create pull request**
+1. Öffne eine Pull Request mit [diese Abkürzung]({{ url }}) oder manuell wie folgt:
+    - Klicke auf der Registerkarte “Pull Requests” auf **New pull request**
+    - Stelle im Dropdown-Menü "base:" sicher, dass der Branch `main` ausgewählt ist
+    - Im Dropdown-Menü "compare:", wähle "{{ branch | remove: 'refs/heads/' }}" aus
+1. Wenn du dein Branch ausgewählt habe, gebe dein Pull Request ein Titel ein, Z.B. `Erstelle {{ user.username }}'s Folie`
+1. Im nächsten Sektor kann man die vorgenommenen Änderungen beschreiben. Hier kann man eine Beschreibung dessen hinzuzufügen, was man bisher erreicht hat. Zur Erinnerung hast du: einen Branch erstellt, eine Datei erstellt, ein Commit durchgeführt und eine Pull Request geöffnet.
+1. Klicke **Create pull request**
 
 <hr>
-<h3 align="center">I'll respond in your new pull request.</h3>
+<h3 align="center">Ich antworte in deine neue Pull Request.</h3>
+
