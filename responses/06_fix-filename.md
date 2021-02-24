@@ -2,7 +2,7 @@ I was expecting your file to be named **{{ expected }}**.
 
 Let's edit this pull request to fix both of these issues.
 
-## :keyboard: Activity: Fixing your pull request
+## :keyboard: Activity: Fixing the file name in your pull request
 
 {% if preferences.gitTool == 'cli' %}
 1. Check out to your branch:
@@ -33,7 +33,7 @@ Let's edit this pull request to fix both of these issues.
 1. Scroll to the bottom and enter a commit message and commit in the **Commit Changes** section.
 {% endif %}
 
-**Note**: Can't find the button to edit the file? It may look like a pencil, or it may look like three dots.
+**Note**: You can find directions on how to move files while editing in our [documentation](https://docs.github.com/en/github/managing-files-in-a-repository/moving-a-file-to-a-new-location).
 
 If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
 
