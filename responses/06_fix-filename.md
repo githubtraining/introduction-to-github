@@ -31,6 +31,8 @@ Let's edit this pull request to fix both of these issues.
     {{ expected }}
     ```
 1. Scroll to the bottom and enter a commit message and commit in the **Commit Changes** section.
+
+![gif of changing file name in UI](https://user-images.githubusercontent.com/9906718/112817649-f4ac1a80-9082-11eb-972f-4a6609857b20.gif)
 {% endif %}
 
 **Note**: You can find directions on how to move files while editing in our [documentation](https://docs.github.com/en/github/managing-files-in-a-repository/moving-a-file-to-a-new-location).
