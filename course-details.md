@@ -22,7 +22,7 @@ And when you're done you'll be able to:
 - Deploy a web page to GitHub pages
 
 ## What you'll build
-![a gif of a slide show running on a browser](https://user-images.githubusercontent.com/16547949/69274863-44362880-0ba9-11ea-98f6-b58cfc9eab02.gif)
+![a gif of a slide show running on a browser](https://user-images.githubusercontent.com/821071/120042632-79aaa600-bfd8-11eb-81c0-3c0b31776e9a.gif)
 
 - Completed [source repository](https://github.com/githubtraining/github-slideshow-demo/)
 - Interactive [slideshow](https://githubtraining.github.io/github-slideshow-demo/) deployed to GitHub Pages.
