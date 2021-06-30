@@ -29,6 +29,8 @@ preferences:
     value: ja
   - label: Français
     value: fr
+  - label: Deutsch
+    value: de
 before:
 - type: updateBranchProtection
 - type: createIssue
